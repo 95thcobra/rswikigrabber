@@ -1,9 +1,19 @@
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
 
 /**
  * Grabs item information from RS Wiki and puts them into a json file.
@@ -19,6 +29,16 @@ public class Grab {
 	 * @throws IOException
 	 */
 	public static void start() throws IOException {
+
+		Path path = Paths.get("myitemdef.json");
+		File file = path.toFile();
+		if (!file.exists()) {
+			file.createNewFile();
+		}
+
+		Gson builder = new GsonBuilder().setPrettyPrinting().create();
+		JsonArray jsonArray = new JsonArray();
+
 		BufferedReader in = new BufferedReader(new FileReader("itemlist78.txt"));
 		String line;
 		while ((line = in.readLine()) != null) {
@@ -36,34 +56,90 @@ public class Grab {
 			double weight = 0;
 			boolean stackable = false;
 			boolean equipable = false;
-			
+
+			double highAlch;
+			double lowAlch;
+			double storePrice;
+			String destroy;
+
 			// If the item is not found, go to next iteration.
 			try {
 				examine = getExamineByName(itemName);
 				weight = getWeightByName(itemName);
 				stackable = getStackable(itemName);
 				equipable = getEquipable(itemName);
+
+				highAlch = getHighAlchValue(itemName);
+				lowAlch = getLowAlchValue(itemName);
+				storePrice = getStorePrice(itemName);
+				destroy = getDestroy(itemName);
+
 			} catch (IOException e) {
 				continue;
 			}
 
-			System.out.println("id: " + id);
-			System.out.println("name: " + itemName);
-			System.out.println("examine: " + examine);
-			System.out.println("weight: " + weight);
-			System.out.println("stackable: " + stackable);
-			System.out.println("equipable: " + equipable);
+			try (FileWriter writer = new FileWriter(file)) {
+				JsonObject jsonObject = new JsonObject();
+
+				jsonObject.addProperty("id", id);
+				jsonObject.addProperty("name", itemName);
+				jsonObject.addProperty("examine", examine);
+				jsonObject.addProperty("weight", weight);
+				jsonObject.addProperty("stackable", stackable);
+				jsonObject.addProperty("equipable", equipable);
+
+				jsonObject.addProperty("high-alch", highAlch);
+				jsonObject.addProperty("low-alch", lowAlch);
+				jsonObject.addProperty("store-price", storePrice);
+				jsonObject.addProperty("destroy", destroy);
+
+				System.out.println("id: " + id);
+				System.out.println("name: " + itemName);
+
+				jsonArray.add(jsonObject);
+
+				writer.write(builder.toJson(jsonArray));
+			} catch (IOException ex) {
+
+			}
 		}
 		in.close();
 	}
 
-	/**
-	 * Grabs the examine by name.
-	 * 
-	 * @param itemName
-	 * @return
-	 * @throws IOException 
-	 */
+	public static double getHighAlchValue(String itemName) throws IOException {
+		String line = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/High_Level_Alchemy\" title=\"High Level Alchemy\">High Alch</a>";
+		return getNumber(itemName, line);
+	}
+
+	public static double getLowAlchValue(String itemName) throws IOException {
+		String line = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/Low_Level_Alchemy\" title=\"Low Level Alchemy\">Low Alch</a>";
+		return getNumber(itemName, line);
+	}
+
+	public static double getStorePrice(String itemName) throws IOException {
+		String line = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/High_Level_Alchemy\" title=\"High Level Alchemy\">High Alch</a>";
+		return getNumber(itemName, line);
+	}
+
+	public static String getDestroy(String itemName) throws IOException {
+		URL url = new URL("http://2007.runescape.wikia.com/wiki/" + itemName.replace(' ', '_'));
+		URLConnection con = url.openConnection();
+		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+		String line;
+		while ((line = in.readLine()) != null) {
+			String contains1 = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/Destroy\" title=\"Destroy\">Destroy</a>";
+
+			if (line.contains(contains1)) {
+				// Go to next line.
+				line = in.readLine();
+				int index = line.indexOf(' ') + 1;
+				return line.substring(index).toUpperCase();
+			}
+		}
+		in.close();
+		return "DROP";
+	}
+
 	public static String getExamineByName(String itemName) throws IOException {
 		URL url = new URL("http://2007.runescape.wikia.com/wiki/" + itemName.replace(' ', '_'));
 		URLConnection con = url.openConnection();
@@ -79,13 +155,6 @@ public class Grab {
 		return null;
 	}
 
-	/**
-	 * Grabs the weight by name.
-	 * 
-	 * @param itemName
-	 * @return
-	 * @throws IOException 
-	 */
 	public static double getWeightByName(String itemName) throws IOException {
 		URL url = new URL("http://2007.runescape.wikia.com/wiki/" + itemName.replace(' ', '_'));
 		URLConnection con = url.openConnection();
@@ -104,16 +173,24 @@ public class Grab {
 		in.close();
 		return 0;
 	}
-	
+
 	public static boolean getStackable(String itemName) throws IOException {
+		String line = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/Stackable_items\" title=\"Stackable items\">Stackable</a>?";
+		return getBoolean(itemName, line);
+	}
+
+	public static boolean getEquipable(String itemName) throws IOException {
+		String line = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/Equipment\" title=\"Equipment\">Equipable</a>?";
+		return getBoolean(itemName, line);
+	}
+
+	public static boolean getBoolean(String itemName, String text) throws IOException {
 		URL url = new URL("http://2007.runescape.wikia.com/wiki/" + itemName.replace(' ', '_'));
 		URLConnection con = url.openConnection();
 		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
 		String line;
 		while ((line = in.readLine()) != null) {
-			String contains1 = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/Stackable_items\" title=\"Stackable items\">Stackable</a>?";
-
-			if (line.contains(contains1)) {
+			if (line.contains(text)) {
 				// Go to next line.
 				line = in.readLine();
 				if (line.contains("Yes")) {
@@ -126,26 +203,28 @@ public class Grab {
 		in.close();
 		return false;
 	}
-	
-	public static boolean getEquipable(String itemName) throws IOException {
+
+	public static double getNumber(String itemName, String text) throws IOException {
 		URL url = new URL("http://2007.runescape.wikia.com/wiki/" + itemName.replace(' ', '_'));
 		URLConnection con = url.openConnection();
 		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
 		String line;
 		while ((line = in.readLine()) != null) {
-			String contains1 = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/Equipment\" title=\"Equipment\">Equipable</a>?";
-
+			String contains1 = text;
 			if (line.contains(contains1)) {
+				if (!line.contains("&")) {
+					return 0;
+				}
 				// Go to next line.
 				line = in.readLine();
-				if (line.contains("Yes")) {
-					return true;
-				} else {
-					return false;
-				}
+				int beginIndex = line.indexOf(' ') + 1;
+				int endIndex = line.indexOf('&');
+				String value = line.substring(beginIndex, endIndex);
+				value = value.replace(',', '.');
+				return Double.parseDouble(value);
 			}
 		}
 		in.close();
-		return false;
+		return 0;
 	}
 }
