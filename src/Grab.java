@@ -53,7 +53,7 @@ public class Grab {
 			String itemName = line.substring(first, second);
 
 			String examine = null;
-			double weight = 0;
+			double weight;
 			boolean stackable = false;
 			boolean equipable = false;
 
@@ -61,6 +61,8 @@ public class Grab {
 			double lowAlch;
 			double storePrice;
 			String destroy;
+			
+			//int[] bonus;
 
 			// If the item is not found, go to next iteration.
 			try {
@@ -91,10 +93,12 @@ public class Grab {
 				jsonObject.addProperty("high-alch", highAlch);
 				jsonObject.addProperty("low-alch", lowAlch);
 				jsonObject.addProperty("store-price", storePrice);
-				jsonObject.addProperty("destroy", destroy);
-
-				System.out.println("id: " + id);
-				System.out.println("name: " + itemName);
+				//jsonObject.addProperty("destroy", destroy);
+				if (equipable) {
+				jsonObject.add("bonus", builder.toJsonTree(getBonus(itemName)));
+				}
+				System.out.println("id: " + id + ", itemName: " + itemName);
+				//System.out.println("name: " + itemName);
 
 				jsonArray.add(jsonObject);
 
@@ -104,6 +108,72 @@ public class Grab {
 			}
 		}
 		in.close();
+	}
+	
+	/**
+	 * Rewrite to this, so you dont have to connect over and over.
+	 * @param itemName
+	 * @return
+	 * @throws IOException
+	 */
+	public static String readPage(String itemName) throws IOException {
+		URL url = new URL("http://2007.runescape.wikia.com/wiki/" + itemName.replace(' ', '_'));
+		URLConnection con = url.openConnection();
+		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+		String line;
+		while ((line = in.readLine()) != null) {
+			if (line.contains("weight")) {
+				//handleweight;
+			}
+			if (line.contains("price")) {
+				//handleprice;
+			}
+		}
+		in.close();
+		return null;
+	}
+	
+	public static int[] getBonus(String itemName) throws IOException {
+		int[] array = new int[14];
+		int count = 0;
+		
+		URL url = new URL("http://2007.runescape.wikia.com/wiki/" + itemName.replace(' ', '_'));
+		URLConnection con = url.openConnection();
+		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+		String line;
+		while ((line = in.readLine()) != null) {		
+			String text = "<td style=\"text-align: center; width:";
+			if (line.contains(text)) {
+				/*if (line.contains("+")) {
+					int beginIndex = line.indexOf("+") + 1;
+
+					array[count] = Integer.parseInt(line.substring(beginIndex));
+					continue;
+				}
+				if (line.contains("-")) {
+					int beginIndex = line.indexOf(">-") + 2;
+					array[count] = Integer.parseInt(text.substring(beginIndex));
+					continue;
+				}
+				if (line.contains("%")) {
+					int beginIndex = line.indexOf(">") + 1;
+					int endIndex = line.indexOf("%");
+					array[count] = Integer.parseInt(text.substring(beginIndex, endIndex));
+					continue;
+				}*/
+				int beginIndex = line.indexOf("\">") + 2;
+				if (line.contains("+")) {
+					line = line.replace("+", "");
+				}
+				if (line.contains("%")) {
+					line = line.replace("%", "");
+				}
+				array[count] = Integer.parseInt(line.substring(beginIndex));
+				count++;
+			}	
+		}
+		in.close();
+		return array;
 	}
 
 	public static double getHighAlchValue(String itemName) throws IOException {
@@ -117,7 +187,7 @@ public class Grab {
 	}
 
 	public static double getStorePrice(String itemName) throws IOException {
-		String line = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/High_Level_Alchemy\" title=\"High Level Alchemy\">High Alch</a>";
+		String line = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/Prices#Store_Price\" title=\"Prices\">Store price</a>";
 		return getNumber(itemName, line);
 	}
 
@@ -161,13 +231,36 @@ public class Grab {
 		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
 		String line;
 		while ((line = in.readLine()) != null) {
+			String text = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/Weight\" title=\"Weight\">Weight</a>";
+			//String text = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/Weight\" title=\"Weight\">Weight</a>";
 			String contains1 = "</th><td> ";
 			String contains2 = "&#160;kg";
-
-			if (line.contains(contains1) && line.contains(contains2)) {
-				int beginIndex = contains1.length();
+			
+			if (line.contains(text)) {
+			
+			line = in.readLine();
+			if (line.contains("<b>Inventory:</b> ")) {
+				String inventory = "<b>Inventory:</b> ";
+				int beginIndex = line.indexOf(inventory) + inventory.length() + 1;
 				int endIndex = line.indexOf("&#");
 				return Double.parseDouble(line.substring(beginIndex, endIndex));
+			}
+			if (line.contains("</th><td> (empty) ")) {
+				String inventory = "</th><td> (empty) ";
+				int beginIndex = line.indexOf(inventory) + inventory.length() + 1;
+				int endIndex = line.indexOf("&#");
+				return Double.parseDouble(line.substring(beginIndex, endIndex));
+			}
+			//if (line.contains(contains1) && line.contains(contains2)) {
+				int beginIndex = contains1.length();
+				int endIndex = line.indexOf("&#");
+				try {
+				return Double.parseDouble(line.substring(beginIndex, endIndex));
+				} catch(Exception e) {
+					return 0;
+				}
+			//}
+				
 			}
 		}
 		in.close();
@@ -212,16 +305,33 @@ public class Grab {
 		while ((line = in.readLine()) != null) {
 			String contains1 = text;
 			if (line.contains(contains1)) {
+				// Go to next line.
+				line = in.readLine();
 				if (!line.contains("&")) {
 					return 0;
 				}
-				// Go to next line.
-				line = in.readLine();
+				if (line.contains("-")) {
+					String value = line.substring(line.indexOf('-') - 1, line.indexOf('-'));
+					return Double.parseDouble(value);
+				}
 				int beginIndex = line.indexOf(' ') + 1;
-				int endIndex = line.indexOf('&');
+				int endIndex;
+				if (line.contains("-")) {
+					endIndex = line.indexOf('-');
+				} else {
+					endIndex = line.indexOf('&');
+				}
 				String value = line.substring(beginIndex, endIndex);
+				try {
 				value = value.replace(',', '.');
+				} catch(Exception e) {
+					return 0;
+				}
+				try {
 				return Double.parseDouble(value);
+				} catch (Exception e) {
+					return 0;
+				}
 			}
 		}
 		in.close();

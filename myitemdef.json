@@ -8,8 +8,7 @@
     "equipable": false,
     "high-alch": 0.0,
     "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "THESE ARE THE REMAINS OF THE DWARF WHO WAS STATIONED IN THE GUARD TOWER."
+    "store-price": 0.0
   },
   {
     "id": "1",
@@ -20,8 +19,7 @@
     "equipable": false,
     "high-alch": 0.0,
     "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "I GOT THIS FROM CAPTAIN LAWGOF."
+    "store-price": 0.0
   },
   {
     "id": "2",
@@ -30,10 +28,9 @@
     "weight": 0.0,
     "stackable": true,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 0.0
   },
   {
     "id": "3",
@@ -44,8 +41,7 @@
     "equipable": false,
     "high-alch": 0.0,
     "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "store-price": 0.0
   },
   {
     "id": "4",
@@ -54,10 +50,9 @@
     "weight": 4.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 5.0
   },
   {
     "id": "5",
@@ -66,10 +61,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 6.0,
+    "low-alch": 4.0,
+    "store-price": 20.0
   },
   {
     "id": "6",
@@ -78,10 +72,9 @@
     "weight": 10.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 112.5,
+    "low-alch": 75.0,
+    "store-price": 200.625
   },
   {
     "id": "7",
@@ -90,10 +83,9 @@
     "weight": 10.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 112.5,
+    "low-alch": 75.0,
+    "store-price": 200.625
   },
   {
     "id": "8",
@@ -102,10 +94,9 @@
     "weight": 0.9,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 112.5,
+    "low-alch": 75.0,
+    "store-price": 200.625
   },
   {
     "id": "9",
@@ -114,10 +105,9 @@
     "weight": 0.9,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 112.5,
+    "low-alch": 75.0,
+    "store-price": 200.625
   },
   {
     "id": "10",
@@ -126,10 +116,9 @@
     "weight": 15.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 112.5,
+    "low-alch": 75.0,
+    "store-price": 200.625
   },
   {
     "id": "11",
@@ -138,10 +127,9 @@
     "weight": 15.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 112.5,
+    "low-alch": 75.0,
+    "store-price": 200.625
   },
   {
     "id": "12",
@@ -150,10 +138,9 @@
     "weight": 5.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 112.5,
+    "low-alch": 75.0,
+    "store-price": 200.625
   },
   {
     "id": "13",
@@ -162,10 +149,9 @@
     "weight": 5.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 112.5,
+    "low-alch": 75.0,
+    "store-price": 200.625
   },
   {
     "id": "14",
@@ -176,8 +162,7 @@
     "equipable": false,
     "high-alch": 0.0,
     "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "store-price": 0.0
   },
   {
     "id": "15",
@@ -186,10 +171,20 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 6.0,
+    "low-alch": 4.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "16",
+    "name": "Magic whistle",
+    "examine": "A small tin whistle.",
+    "weight": 0.2,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 6.0,
+    "low-alch": 4.0,
+    "store-price": 0.0
   },
   {
     "id": "17",
@@ -198,10 +193,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 6.0,
+    "low-alch": 4.0,
+    "store-price": 0.0
   },
   {
     "id": "18",
@@ -210,10 +204,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
+    "high-alch": 1.0,
     "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "store-price": 0.0
   },
   {
     "id": "19",
@@ -222,10 +215,9 @@
     "weight": 4.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "YOU WILL NEED TO RETURN TO THE FISHER KING\u0027S REALM TO GET ANOTHER."
+    "high-alch": 2.0,
+    "low-alch": 1.0,
+    "store-price": 0.0
   },
   {
     "id": "20",
@@ -236,8 +228,7 @@
     "equipable": false,
     "high-alch": 0.0,
     "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "store-price": 0.0
   },
   {
     "id": "21",
@@ -248,8 +239,7 @@
     "equipable": false,
     "high-alch": 0.0,
     "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "store-price": 0.0
   },
   {
     "id": "22",
@@ -260,8 +250,7 @@
     "equipable": false,
     "high-alch": 0.0,
     "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "store-price": 0.0
   },
   {
     "id": "23",
@@ -272,8 +261,7 @@
     "equipable": false,
     "high-alch": 0.0,
     "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "store-price": 0.0
   },
   {
     "id": "24",
@@ -282,10 +270,9 @@
     "weight": 0.1,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 1.0,
+    "low-alch": 1.0,
+    "store-price": 0.0
   },
   {
     "id": "25",
@@ -296,8 +283,7 @@
     "equipable": false,
     "high-alch": 0.0,
     "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "store-price": 0.0
   },
   {
     "id": "26",
@@ -308,8 +294,7 @@
     "equipable": false,
     "high-alch": 0.0,
     "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "store-price": 0.0
   },
   {
     "id": "27",
@@ -320,8 +305,7 @@
     "equipable": false,
     "high-alch": 0.0,
     "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "store-price": 0.0
   },
   {
     "id": "28",
@@ -330,10 +314,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 1.0,
+    "low-alch": 1.0,
+    "store-price": 121.0
   },
   {
     "id": "29",
@@ -342,10 +325,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 1.0,
+    "low-alch": 1.0,
+    "store-price": 121.0
   },
   {
     "id": "30",
@@ -354,10 +336,9 @@
     "weight": 2.5,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 0.0
   },
   {
     "id": "31",
@@ -366,10 +347,9 @@
     "weight": 2.5,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 0.0
   },
   {
     "id": "32",
@@ -378,10 +358,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 1.0,
+    "low-alch": 1.0,
+    "store-price": 3.0
   },
   {
     "id": "35",
@@ -390,10 +369,25 @@
     "weight": 2.2,
     "stackable": false,
     "equipable": true,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
+    "high-alch": 120.0,
+    "low-alch": 80.0,
     "store-price": 0.0,
-    "destroy": "DROP"
+    "bonus": [
+      20,
+      29,
+      -2,
+      0,
+      0,
+      0,
+      3,
+      2,
+      1,
+      0,
+      25,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "36",
@@ -402,10 +396,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 1.0,
+    "low-alch": 1.0,
+    "store-price": 3.0
   },
   {
     "id": "37",
@@ -414,10 +407,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 1.0,
+    "low-alch": 1.0,
+    "store-price": 3.0
   },
   {
     "id": "38",
@@ -426,10 +418,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 1.0,
+    "low-alch": 1.0,
+    "store-price": 3.0
   },
   {
     "id": "39",
@@ -440,8 +431,7 @@
     "equipable": false,
     "high-alch": 0.0,
     "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "store-price": 1.0
   },
   {
     "id": "40",
@@ -450,10 +440,9 @@
     "weight": 0.0,
     "stackable": true,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 15.0,
+    "low-alch": 10.0,
+    "store-price": 26.0
   },
   {
     "id": "41",
@@ -462,10 +451,9 @@
     "weight": 0.0,
     "stackable": true,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 5.0
   },
   {
     "id": "42",
@@ -474,10 +462,9 @@
     "weight": 0.0,
     "stackable": true,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 9.0,
+    "low-alch": 6.0,
+    "store-price": 15.0
   },
   {
     "id": "43",
@@ -486,10 +473,9 @@
     "weight": 0.0,
     "stackable": true,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 24.0,
+    "low-alch": 16.0,
+    "store-price": 40.0
   },
   {
     "id": "44",
@@ -498,10 +484,9 @@
     "weight": 0.0,
     "stackable": true,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 120.0,
+    "low-alch": 80.0,
+    "store-price": 460.0
   },
   {
     "id": "45",
@@ -510,10 +495,9 @@
     "weight": 0.0,
     "stackable": true,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 2.0
   },
   {
     "id": "46",
@@ -522,10 +506,9 @@
     "weight": 0.0,
     "stackable": true,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 7.0,
+    "low-alch": 4.0,
+    "store-price": 0.0
   },
   {
     "id": "47",
@@ -534,10 +517,9 @@
     "weight": 0.0,
     "stackable": true,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "NO"
+    "high-alch": 57.0,
+    "low-alch": 38.0,
+    "store-price": 114.0
   },
   {
     "id": "48",
@@ -546,10 +528,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 48.0,
+    "low-alch": 36.0,
+    "store-price": 24.0
   },
   {
     "id": "49",
@@ -558,10 +539,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 48.0,
+    "low-alch": 36.0,
+    "store-price": 24.0
   },
   {
     "id": "50",
@@ -570,10 +550,9 @@
     "weight": 1.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 13.0,
+    "low-alch": 9.0,
+    "store-price": 0.0
   },
   {
     "id": "51",
@@ -582,10 +561,9 @@
     "weight": 1.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 13.0,
+    "low-alch": 9.0,
+    "store-price": 0.0
   },
   {
     "id": "52",
@@ -596,8 +574,7 @@
     "equipable": false,
     "high-alch": 0.0,
     "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "store-price": 1.0
   },
   {
     "id": "53",
@@ -608,8 +585,7 @@
     "equipable": false,
     "high-alch": 0.0,
     "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "store-price": 0.0
   },
   {
     "id": "54",
@@ -618,10 +594,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 30.0,
+    "low-alch": 20.0,
+    "store-price": 5.0
   },
   {
     "id": "55",
@@ -630,10 +605,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 30.0,
+    "low-alch": 20.0,
+    "store-price": 5.0
   },
   {
     "id": "56",
@@ -642,10 +616,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 48.0,
+    "low-alch": 32.0,
+    "store-price": 8.0
   },
   {
     "id": "57",
@@ -654,10 +627,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 48.0,
+    "low-alch": 32.0,
+    "store-price": 8.0
   },
   {
     "id": "58",
@@ -666,10 +638,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 96.0,
+    "low-alch": 64.0,
+    "store-price": 0.0
   },
   {
     "id": "59",
@@ -678,10 +649,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 96.0,
+    "low-alch": 64.0,
+    "store-price": 0.0
   },
   {
     "id": "60",
@@ -690,10 +660,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 60.0,
+    "low-alch": 40.0,
+    "store-price": 16.0
   },
   {
     "id": "61",
@@ -702,10 +671,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 60.0,
+    "low-alch": 40.0,
+    "store-price": 16.0
   },
   {
     "id": "62",
@@ -714,10 +682,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 192.0,
+    "low-alch": 128.0,
+    "store-price": 0.0
   },
   {
     "id": "63",
@@ -726,10 +693,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 192.0,
+    "low-alch": 128.0,
+    "store-price": 0.0
   },
   {
     "id": "64",
@@ -738,10 +704,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 120.0,
+    "low-alch": 80.0,
+    "store-price": 80.0
   },
   {
     "id": "65",
@@ -750,10 +715,9 @@
     "weight": 0.0,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 120.0,
+    "low-alch": 80.0,
+    "store-price": 80.0
   },
   {
     "id": "66",
@@ -762,10 +726,9 @@
     "weight": 1.32,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 384.0,
+    "low-alch": 256.0,
+    "store-price": 0.0
   },
   {
     "id": "67",
@@ -774,10 +737,9 @@
     "weight": 1.32,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 384.0,
+    "low-alch": 256.0,
+    "store-price": 0.0
   },
   {
     "id": "68",
@@ -786,10 +748,9 @@
     "weight": 1.32,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 240.0,
+    "low-alch": 160.0,
+    "store-price": 0.0
   },
   {
     "id": "69",
@@ -798,10 +759,9 @@
     "weight": 1.32,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 240.0,
+    "low-alch": 160.0,
+    "store-price": 0.0
   },
   {
     "id": "70",
@@ -810,10 +770,9 @@
     "weight": 1.32,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 768.0,
+    "low-alch": 512.0,
+    "store-price": 0.0
   },
   {
     "id": "71",
@@ -822,10 +781,9 @@
     "weight": 1.32,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 768.0,
+    "low-alch": 512.0,
+    "store-price": 0.0
   },
   {
     "id": "72",
@@ -834,10 +792,9 @@
     "weight": 0.9,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 480.0,
+    "low-alch": 320.0,
+    "store-price": 0.0
   },
   {
     "id": "73",
@@ -846,10 +803,9 @@
     "weight": 0.9,
     "stackable": false,
     "equipable": false,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
-    "store-price": 0.0,
-    "destroy": "DROP"
+    "high-alch": 480.0,
+    "low-alch": 320.0,
+    "store-price": 0.0
   },
   {
     "id": "74",
@@ -858,10 +814,25 @@
     "weight": 2.0,
     "stackable": false,
     "equipable": true,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
+    "high-alch": 6.0,
+    "low-alch": 4.0,
     "store-price": 0.0,
-    "destroy": "DROP"
+    "bonus": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      5,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "75",
@@ -870,10 +841,25 @@
     "weight": 0.5,
     "stackable": false,
     "equipable": true,
-    "high-alch": 0.0,
-    "low-alch": 0.0,
+    "high-alch": 7.0,
+    "low-alch": 4.0,
     "store-price": 0.0,
-    "destroy": "DROP"
+    "bonus": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      9,
+      11,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "76",
@@ -884,7 +870,3191 @@
     "equipable": false,
     "high-alch": 0.0,
     "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "77",
+    "name": "Khali brew",
+    "examine": "A bottle of Khazard\u0027s worst brew.",
+    "weight": 0.0,
+    "stackable": true,
+    "equipable": false,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 5.0
+  },
+  {
+    "id": "78",
+    "name": "Ice arrows",
+    "examine": "Can only be fired from yew, magic, elder or dark bows.",
+    "weight": 0.0,
+    "stackable": true,
+    "equipable": true,
+    "high-alch": 1.0,
+    "low-alch": 0.0,
     "store-price": 0.0,
-    "destroy": "DROP"
+    "bonus": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "83",
+    "name": "Lever",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "84",
+    "name": "Staff of armadyl",
+    "examine": "The power in this staff causes it to vibrate gently.",
+    "weight": 5.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "85",
+    "name": "Shiny key",
+    "examine": "It catches the light! (Quick access into the Temple of Ikov).",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "86",
+    "name": "Pendant of lucien",
+    "examine": "An amulet made by Lucien.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": true,
+    "high-alch": 7.0,
+    "low-alch": 4.0,
+    "store-price": 0.0,
+    "bonus": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "87",
+    "name": "Armadyl pendant",
+    "examine": "Worn by followers of Armadyl.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": true,
+    "high-alch": 7.0,
+    "low-alch": 4.0,
+    "store-price": 0.0,
+    "bonus": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "88",
+    "name": "Boots of lightness",
+    "examine": "Magic boots that make you lighter than normal.",
+    "weight": 0.3,
+    "stackable": false,
+    "equipable": true,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 0.0,
+    "bonus": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "89",
+    "name": "Boots of lightness",
+    "examine": "Magic boots that make you lighter than normal.",
+    "weight": 0.3,
+    "stackable": false,
+    "equipable": true,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 0.0,
+    "bonus": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "90",
+    "name": "Child\u0027s blanket",
+    "examine": "It\u0027s very soft!",
+    "weight": 0.9,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "91",
+    "name": "Guam potion (unf)",
+    "examine": "I need another ingredient to finish this Guam potion.",
+    "weight": 0.03,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 1.0,
+    "low-alch": 1.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "92",
+    "name": "Guam potion (unf)",
+    "examine": "I need another ingredient to finish this Guam potion.",
+    "weight": 0.03,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 1.0,
+    "low-alch": 1.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "93",
+    "name": "Marrentill potion (unf)",
+    "examine": "I need another ingredient to finish this Marrentill potion.",
+    "weight": 0.03,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "94",
+    "name": "Marrentill potion (unf)",
+    "examine": "I need another ingredient to finish this Marrentill potion.",
+    "weight": 0.03,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "95",
+    "name": "Tarromin potion (unf)",
+    "examine": "I need another ingredient to finish this tarromin potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 6.0,
+    "low-alch": 4.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "96",
+    "name": "Tarromin potion (unf)",
+    "examine": "I need another ingredient to finish this tarromin potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 6.0,
+    "low-alch": 4.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "97",
+    "name": "Harralander potion (unf)",
+    "examine": "I need another ingredient to finish this Harralander potion.",
+    "weight": 0.03,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 12.0,
+    "low-alch": 8.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "98",
+    "name": "Harralander potion (unf)",
+    "examine": "I need another ingredient to finish this Harralander potion.",
+    "weight": 0.03,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 12.0,
+    "low-alch": 8.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "99",
+    "name": "Ranarr potion (unf)",
+    "examine": "I need another ingredient to finish this Ranarr potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 15.0,
+    "low-alch": 10.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "100",
+    "name": "Ranarr potion (unf)",
+    "examine": "I need another ingredient to finish this Ranarr potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 15.0,
+    "low-alch": 10.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "101",
+    "name": "Irit potion (unf)",
+    "examine": "I need another ingredient to finish this Irit potion.",
+    "weight": 0.03,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 24.0,
+    "low-alch": 16.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "102",
+    "name": "Irit potion (unf)",
+    "examine": "I need another ingredient to finish this Irit potion.",
+    "weight": 0.03,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 24.0,
+    "low-alch": 16.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "103",
+    "name": "Avantoe potion (unf)",
+    "examine": "I need another ingredient to finish this Avantoe potion.",
+    "weight": 0.03,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 28.0,
+    "low-alch": 19.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "104",
+    "name": "Avantoe potion (unf)",
+    "examine": "I need another ingredient to finish this Avantoe potion.",
+    "weight": 0.03,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 28.0,
+    "low-alch": 19.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "105",
+    "name": "Kwuarm potion (unf)",
+    "examine": "I need another ingredient to finish this Kwuarm potion.",
+    "weight": 0.03,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 32.0,
+    "low-alch": 21.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "106",
+    "name": "Kwuarm potion (unf)",
+    "examine": "I need another ingredient to finish this Kwuarm potion.",
+    "weight": 0.03,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 32.0,
+    "low-alch": 21.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "107",
+    "name": "Cadantine potion (unf)",
+    "examine": "I need another ingredient to finish this cadantine potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 39.0,
+    "low-alch": 26.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "108",
+    "name": "Cadantine potion (unf)",
+    "examine": "I need another ingredient to finish this cadantine potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 39.0,
+    "low-alch": 26.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "109",
+    "name": "Dwarf weed potion (unf)",
+    "examine": "I need another ingredient to finish this Dwarf Weed potion.",
+    "weight": 0.03,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 35.0,
+    "low-alch": 23.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "110",
+    "name": "Dwarf weed potion (unf)",
+    "examine": "I need another ingredient to finish this Dwarf Weed potion.",
+    "weight": 0.03,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 35.0,
+    "low-alch": 23.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "111",
+    "name": "Torstol potion (unf)",
+    "examine": "I need another ingredient to finish this torstol potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 15.0,
+    "low-alch": 10.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "112",
+    "name": "Torstol potion (unf)",
+    "examine": "I need another ingredient to finish this torstol potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 15.0,
+    "low-alch": 10.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "121",
+    "name": "Attack potion(3)",
+    "examine": "X doses of Attack potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 9.0,
+    "low-alch": 6.0,
+    "store-price": 14.0
+  },
+  {
+    "id": "122",
+    "name": "Attack potion(3)",
+    "examine": "X doses of Attack potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 9.0,
+    "low-alch": 6.0,
+    "store-price": 14.0
+  },
+  {
+    "id": "143",
+    "name": "Prayer potion(1)",
+    "examine": "X doses of Prayer restore potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 91.0,
+    "low-alch": 61.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "144",
+    "name": "Prayer potion(1)",
+    "examine": "X doses of Prayer restore potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 91.0,
+    "low-alch": 61.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "145",
+    "name": "Super attack(3)",
+    "examine": "X dose(s) of super Attack potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 108.0,
+    "low-alch": 72.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "146",
+    "name": "Super attack(3)",
+    "examine": "X dose(s) of super Attack potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 108.0,
+    "low-alch": 72.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "157",
+    "name": "Super strength(3)",
+    "examine": "X dose(s) of super Strength potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 132.0,
+    "low-alch": 88.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "158",
+    "name": "Super strength(3)",
+    "examine": "X dose(s) of super Strength potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 132.0,
+    "low-alch": 88.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "161",
+    "name": "Super strength(1)",
+    "examine": "X dose(s) of super Strength potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 132.0,
+    "low-alch": 88.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "162",
+    "name": "Super strength(1)",
+    "examine": "X dose(s) of super Strength potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 132.0,
+    "low-alch": 88.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "163",
+    "name": "Super defence(3)",
+    "examine": "X dose(s) of super Defence potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 158.0,
+    "low-alch": 105.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "164",
+    "name": "Super defence(3)",
+    "examine": "X dose(s) of super Defence potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 158.0,
+    "low-alch": 105.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "165",
+    "name": "Super defence(2)",
+    "examine": "X dose(s) of super Defence potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 158.0,
+    "low-alch": 105.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "166",
+    "name": "Super defence(2)",
+    "examine": "X dose(s) of super Defence potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 158.0,
+    "low-alch": 105.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "169",
+    "name": "Ranging potion(3)",
+    "examine": "\u003ci\u003eX\u003c/i\u003e dose(s) of ranging potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 172.0,
+    "low-alch": 115.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "170",
+    "name": "Ranging potion(3)",
+    "examine": "\u003ci\u003eX\u003c/i\u003e dose(s) of ranging potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 172.0,
+    "low-alch": 115.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "175",
+    "name": "Antipoison(3)",
+    "examine": "X doses of antipoison potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 172.0,
+    "low-alch": 115.0,
+    "store-price": 432.0
+  },
+  {
+    "id": "176",
+    "name": "Antipoison(3)",
+    "examine": "X doses of antipoison potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 172.0,
+    "low-alch": 115.0,
+    "store-price": 432.0
+  },
+  {
+    "id": "183",
+    "name": "Superantipoison(2)",
+    "examine": "X dose(s) of super anti poison potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 172.0,
+    "low-alch": 115.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "184",
+    "name": "Superantipoison(2)",
+    "examine": "X dose(s) of super anti poison potion.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 172.0,
+    "low-alch": 115.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "187",
+    "name": "Weapon poison",
+    "examine": "For use on daggers and projectiles.",
+    "weight": 0.0,
+    "stackable": true,
+    "equipable": false,
+    "high-alch": 86.0,
+    "low-alch": 57.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "188",
+    "name": "Weapon poison",
+    "examine": "For use on daggers and projectiles.",
+    "weight": 0.0,
+    "stackable": true,
+    "equipable": false,
+    "high-alch": 86.0,
+    "low-alch": 57.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "189",
+    "name": "Zamorak brew(3)",
+    "examine": "X dose(s) of Zamorak brew.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 105.0,
+    "low-alch": 70.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "190",
+    "name": "Zamorak brew(3)",
+    "examine": "X dose(s) of Zamorak brew.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 105.0,
+    "low-alch": 70.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "195",
+    "name": "Potion",
+    "examine": "This is meant to be good for spots.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "196",
+    "name": "Potion",
+    "examine": "This is meant to be good for spots.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "197",
+    "name": "Poison chalice",
+    "examine": "Stankers gives out these strange cocktails for free.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 12.0,
+    "low-alch": 8.0,
+    "store-price": 39.0
+  },
+  {
+    "id": "198",
+    "name": "Poison chalice",
+    "examine": "Stankers gives out these strange cocktails for free.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 12.0,
+    "low-alch": 8.0,
+    "store-price": 39.0
+  },
+  {
+    "id": "199",
+    "name": "Grimy guam leaf",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "200",
+    "name": "Grimy guam leaf",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "201",
+    "name": "Grimy marrentill",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "202",
+    "name": "Grimy marrentill",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "203",
+    "name": "Grimy tarromin",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "204",
+    "name": "Grimy tarromin",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "205",
+    "name": "Grimy harralander",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "206",
+    "name": "Grimy harralander",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "207",
+    "name": "Grimy ranarr weed",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "208",
+    "name": "Grimy ranarr weed",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "209",
+    "name": "Grimy irit leaf",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "210",
+    "name": "Grimy irit leaf",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "211",
+    "name": "Grimy avantoe",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "212",
+    "name": "Grimy avantoe",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "213",
+    "name": "Grimy kwuarm",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "214",
+    "name": "Grimy kwuarm",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "215",
+    "name": "Grimy cadantine",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "216",
+    "name": "Grimy cadantine",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "217",
+    "name": "Grimy dwarf weed",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "218",
+    "name": "Grimy dwarf weed",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "219",
+    "name": "Grimy torstol",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "220",
+    "name": "Grimy torstol",
+    "examine": "It needs cleaning.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "221",
+    "name": "Eye of newt",
+    "examine": "It seems to be looking at me.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 1.0,
+    "low-alch": 1.0,
+    "store-price": 3.0
+  },
+  {
+    "id": "222",
+    "name": "Eye of newt",
+    "examine": "It seems to be looking at me.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 1.0,
+    "low-alch": 1.0,
+    "store-price": 3.0
+  },
+  {
+    "id": "223",
+    "name": "Red spiders\u0027 eggs",
+    "examine": "Ewww!",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 4.0,
+    "low-alch": 2.0,
+    "store-price": 300.0
+  },
+  {
+    "id": "224",
+    "name": "Red spiders\u0027 eggs",
+    "examine": "Ewww!",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 4.0,
+    "low-alch": 2.0,
+    "store-price": 300.0
+  },
+  {
+    "id": "225",
+    "name": "Limpwurt root",
+    "examine": "The root of a limpwurt plant.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 5.0,
+    "low-alch": 2.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "226",
+    "name": "Limpwurt root",
+    "examine": "The root of a limpwurt plant.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 5.0,
+    "low-alch": 2.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "227",
+    "name": "Vial of water",
+    "examine": "A glass vial containing water.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 1.0,
+    "low-alch": 0.0,
+    "store-price": 10.0
+  },
+  {
+    "id": "228",
+    "name": "Vial of water",
+    "examine": "A glass vial containing water.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 1.0,
+    "low-alch": 0.0,
+    "store-price": 10.0
+  },
+  {
+    "id": "229",
+    "name": "Vial",
+    "examine": "An empty glass vial.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 1.0,
+    "low-alch": 0.0,
+    "store-price": 2.0
+  },
+  {
+    "id": "230",
+    "name": "Vial",
+    "examine": "An empty glass vial.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 1.0,
+    "low-alch": 0.0,
+    "store-price": 2.0
+  },
+  {
+    "id": "231",
+    "name": "Snape grass",
+    "examine": "Strange spiky grass.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 6.0,
+    "low-alch": 4.0,
+    "store-price": 175.0
+  },
+  {
+    "id": "232",
+    "name": "Snape grass",
+    "examine": "Strange spiky grass.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 6.0,
+    "low-alch": 4.0,
+    "store-price": 175.0
+  },
+  {
+    "id": "233",
+    "name": "Pestle and mortar",
+    "examine": "I can grind things for potions in this.",
+    "weight": 0.05,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 2.0,
+    "low-alch": 1.0,
+    "store-price": 4.0
+  },
+  {
+    "id": "234",
+    "name": "Pestle and mortar",
+    "examine": "I can grind things for potions in this.",
+    "weight": 0.05,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 2.0,
+    "low-alch": 1.0,
+    "store-price": 4.0
+  },
+  {
+    "id": "235",
+    "name": "Unicorn horn dust",
+    "examine": "Finely ground horn of Unicorn.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 12.0,
+    "low-alch": 8.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "236",
+    "name": "Unicorn horn dust",
+    "examine": "Finely ground horn of Unicorn.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 12.0,
+    "low-alch": 8.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "237",
+    "name": "Unicorn horn",
+    "examine": "This horn has restorative properties.",
+    "weight": 1.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 12.0,
+    "low-alch": 8.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "238",
+    "name": "Unicorn horn",
+    "examine": "This horn has restorative properties.",
+    "weight": 1.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 12.0,
+    "low-alch": 8.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "239",
+    "name": "White berries",
+    "examine": "Sour berries, used in potions.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 6.0,
+    "low-alch": 4.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "240",
+    "name": "White berries",
+    "examine": "Sour berries, used in potions.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 6.0,
+    "low-alch": 4.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "241",
+    "name": "Dragon scale dust",
+    "examine": "Finely ground scale of Dragon.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 31.0,
+    "low-alch": 20.0,
+    "store-price": 750.0
+  },
+  {
+    "id": "242",
+    "name": "Dragon scale dust",
+    "examine": "Finely ground scale of Dragon.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 31.0,
+    "low-alch": 20.0,
+    "store-price": 750.0
+  },
+  {
+    "id": "243",
+    "name": "Blue dragon scale",
+    "examine": "A large shiny scale.",
+    "weight": 0.01,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 30.0,
+    "low-alch": 20.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "244",
+    "name": "Blue dragon scale",
+    "examine": "A large shiny scale.",
+    "weight": 0.01,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 30.0,
+    "low-alch": 20.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "245",
+    "name": "Wine of zamorak",
+    "examine": "\"An evil wine for an evil god.\"",
+    "weight": 1.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "246",
+    "name": "Wine of zamorak",
+    "examine": "\"An evil wine for an evil god.\"",
+    "weight": 1.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "247",
+    "name": "Jangerberries",
+    "examine": "They don\u0027t look very ripe.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "248",
+    "name": "Jangerberries",
+    "examine": "They don\u0027t look very ripe.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "249",
+    "name": "Guam leaf",
+    "examine": "A bitter green herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 1.0,
+    "low-alch": 1.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "250",
+    "name": "Guam leaf",
+    "examine": "A bitter green herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 1.0,
+    "low-alch": 1.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "251",
+    "name": "Marrentill",
+    "examine": "A herb used in poison cures.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "252",
+    "name": "Marrentill",
+    "examine": "A herb used in poison cures.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "253",
+    "name": "Tarromin",
+    "examine": "A fresh herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 6.0,
+    "low-alch": 4.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "254",
+    "name": "Tarromin",
+    "examine": "A fresh herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 6.0,
+    "low-alch": 4.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "255",
+    "name": "Harralander",
+    "examine": "A fresh herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 12.0,
+    "low-alch": 8.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "256",
+    "name": "Harralander",
+    "examine": "A fresh herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 12.0,
+    "low-alch": 8.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "257",
+    "name": "Ranarr weed",
+    "examine": "A useful herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 15.0,
+    "low-alch": 10.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "258",
+    "name": "Ranarr weed",
+    "examine": "A useful herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 15.0,
+    "low-alch": 10.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "259",
+    "name": "Irit leaf",
+    "examine": "A useful herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 24.0,
+    "low-alch": 16.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "260",
+    "name": "Irit leaf",
+    "examine": "A useful herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 24.0,
+    "low-alch": 16.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "261",
+    "name": "Avantoe",
+    "examine": "A useful herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 28.0,
+    "low-alch": 19.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "262",
+    "name": "Avantoe",
+    "examine": "A useful herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 28.0,
+    "low-alch": 19.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "263",
+    "name": "Kwuarm",
+    "examine": "A powerful herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 32.0,
+    "low-alch": 21.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "264",
+    "name": "Kwuarm",
+    "examine": "A powerful herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 32.0,
+    "low-alch": 21.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "265",
+    "name": "Cadantine",
+    "examine": "A fresh herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 39.0,
+    "low-alch": 26.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "266",
+    "name": "Cadantine",
+    "examine": "A fresh herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 39.0,
+    "low-alch": 26.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "267",
+    "name": "Dwarf weed",
+    "examine": "A powerful herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 42.0,
+    "low-alch": 28.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "268",
+    "name": "Dwarf weed",
+    "examine": "A powerful herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 42.0,
+    "low-alch": 28.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "269",
+    "name": "Torstol",
+    "examine": "A powerful herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 45.0,
+    "low-alch": 30.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "270",
+    "name": "Torstol",
+    "examine": "A powerful herb.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 45.0,
+    "low-alch": 30.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "271",
+    "name": "Pressure gauge",
+    "examine": "It looks like part of a machine.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "272",
+    "name": "Fish food",
+    "examine": "A box of fish food.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "273",
+    "name": "Poison",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "274",
+    "name": "Poisoned fish food",
+    "examine": "Doesn\u0027t seem very nice to the poor fishes.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "275",
+    "name": "Key",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "276",
+    "name": "Rubber tube",
+    "examine": "It\u0027s slightly charred.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "277",
+    "name": "Oil can",
+    "examine": "It\u0027s pretty full.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 1.0,
+    "low-alch": 1.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "278",
+    "name": "Cattleprod",
+    "examine": "A sharp cattleprod.",
+    "weight": 0.4,
+    "stackable": false,
+    "equipable": true,
+    "high-alch": 1.0,
+    "low-alch": 1.0,
+    "store-price": 0.0,
+    "bonus": [
+      4,
+      2,
+      -4,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      3,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "279",
+    "name": "Sheep feed",
+    "examine": "Councillor Halgrive gave me this to kill some sheep.",
+    "weight": 2.2,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "284",
+    "name": "Plague jacket",
+    "examine": "This should protect me from the plague, I hope!",
+    "weight": 2.2,
+    "stackable": false,
+    "equipable": true,
+    "high-alch": 30.0,
+    "low-alch": 20.0,
+    "store-price": 0.0,
+    "bonus": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "285",
+    "name": "Plague trousers",
+    "examine": "These should protect me from the plague, I hope!",
+    "weight": 2.2,
+    "stackable": false,
+    "equipable": true,
+    "high-alch": 30.0,
+    "low-alch": 20.0,
+    "store-price": 0.0,
+    "bonus": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "286",
+    "name": "Orange goblin mail",
+    "examine": "Armour designed to fit goblins.",
+    "weight": 3.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 24.0,
+    "low-alch": 16.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "287",
+    "name": "Blue goblin mail",
+    "examine": "Armour designed to fit goblins.",
+    "weight": 3.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 24.0,
+    "low-alch": 16.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "288",
+    "name": "Goblin mail",
+    "examine": "Armour designed to fit goblins.",
+    "weight": 3.6,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 24.0,
+    "low-alch": 16.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "289",
+    "name": "Goblin mail",
+    "examine": "Armour designed to fit goblins.",
+    "weight": 3.6,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 24.0,
+    "low-alch": 16.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "290",
+    "name": "Research package",
+    "examine": "This contains some vital research results.",
+    "weight": 1.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "292",
+    "name": "Book on baxtorian",
+    "examine": "A book on elven history in northern RuneScape.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 1.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "293",
+    "name": "A key",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "294",
+    "name": "Glarial\u0027s pebble",
+    "examine": "A small pebble with elven inscription.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "295",
+    "name": "Glarial\u0027s amulet",
+    "examine": "A bright green gem set in a necklace.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": true,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0,
+    "bonus": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "296",
+    "name": "Glarial\u0027s urn",
+    "examine": "An urn containing Glarial\u0027s ashes. \u003cbr /\u003e An empty urn made for Glarial\u0027s ashes.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "297",
+    "name": "Glarial\u0027s urn",
+    "examine": "An urn containing Glarial\u0027s ashes. \u003cbr /\u003e An empty urn made for Glarial\u0027s ashes.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "298",
+    "name": "A key",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "299",
+    "name": "Mithril seeds",
+    "examine": "Magical seeds in a mithril case.",
+    "weight": 0.0,
+    "stackable": true,
+    "equipable": false,
+    "high-alch": 120.0,
+    "low-alch": 80.0,
+    "store-price": 300.0
+  },
+  {
+    "id": "300",
+    "name": "Rat\u0027s tail",
+    "examine": "A bit of rat.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 1.0,
+    "low-alch": 1.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "301",
+    "name": "Lobster pot",
+    "examine": "Useful for catching lobsters.",
+    "weight": 0.2,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 12.0,
+    "low-alch": 8.0,
+    "store-price": 20.0
+  },
+  {
+    "id": "302",
+    "name": "Lobster pot",
+    "examine": "Useful for catching lobsters.",
+    "weight": 0.2,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 12.0,
+    "low-alch": 8.0,
+    "store-price": 20.0
+  },
+  {
+    "id": "303",
+    "name": "Small fishing net",
+    "examine": "Useful for catching small fish.",
+    "weight": 4.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 5.0
+  },
+  {
+    "id": "304",
+    "name": "Small fishing net",
+    "examine": "Useful for catching small fish.",
+    "weight": 4.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 5.0
+  },
+  {
+    "id": "305",
+    "name": "Big fishing net",
+    "examine": "Useful for catching lots of fish.",
+    "weight": 8.1,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 12.0,
+    "low-alch": 8.0,
+    "store-price": 20.0
+  },
+  {
+    "id": "306",
+    "name": "Big fishing net",
+    "examine": "Useful for catching lots of fish.",
+    "weight": 8.1,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 12.0,
+    "low-alch": 8.0,
+    "store-price": 20.0
+  },
+  {
+    "id": "307",
+    "name": "Fishing rod",
+    "examine": "Useful for catching sardine or herring.",
+    "weight": 1.3,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 5.0
+  },
+  {
+    "id": "308",
+    "name": "Fishing rod",
+    "examine": "Useful for catching sardine or herring.",
+    "weight": 1.3,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 5.0
+  },
+  {
+    "id": "309",
+    "name": "Fly fishing rod",
+    "examine": "Useful for catching salmon or trout.",
+    "weight": 1.3,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 5.0
+  },
+  {
+    "id": "310",
+    "name": "Fly fishing rod",
+    "examine": "Useful for catching salmon or trout.",
+    "weight": 1.3,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 5.0
+  },
+  {
+    "id": "311",
+    "name": "Harpoon",
+    "examine": "useful for catching big fish.",
+    "weight": 1.3,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 27.0,
+    "low-alch": 18.0,
+    "store-price": 5.0
+  },
+  {
+    "id": "312",
+    "name": "Harpoon",
+    "examine": "useful for catching big fish.",
+    "weight": 1.3,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 27.0,
+    "low-alch": 18.0,
+    "store-price": 5.0
+  },
+  {
+    "id": "313",
+    "name": "Fishing bait",
+    "examine": "For use with a fishing rod.",
+    "weight": 0.0,
+    "stackable": true,
+    "equipable": true,
+    "high-alch": 1.0,
+    "low-alch": 1.0,
+    "store-price": 3.0,
+    "bonus": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "314",
+    "name": "Feather",
+    "examine": "Used for fly fishing.",
+    "weight": 0.0,
+    "stackable": true,
+    "equipable": false,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 2.0
+  },
+  {
+    "id": "315",
+    "name": "Shrimps",
+    "examine": "Some nicely cooked shrimp.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 6.0
+  },
+  {
+    "id": "316",
+    "name": "Shrimps",
+    "examine": "Some nicely cooked shrimp.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 6.0
+  },
+  {
+    "id": "317",
+    "name": "Raw shrimps",
+    "examine": "I should try cooking this.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 6.0
+  },
+  {
+    "id": "318",
+    "name": "Raw shrimps",
+    "examine": "I should try cooking this.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 6.0
+  },
+  {
+    "id": "319",
+    "name": "Anchovies",
+    "examine": "Some nicely cooked anchovies.",
+    "weight": 0.1,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 9.0,
+    "low-alch": 6.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "320",
+    "name": "Anchovies",
+    "examine": "Some nicely cooked anchovies.",
+    "weight": 0.1,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 9.0,
+    "low-alch": 6.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "321",
+    "name": "Raw anchovies",
+    "examine": "I should try cooking this.",
+    "weight": 0.1,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 9.0,
+    "low-alch": 6.0,
+    "store-price": 16.0
+  },
+  {
+    "id": "322",
+    "name": "Raw anchovies",
+    "examine": "I should try cooking this.",
+    "weight": 0.1,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 9.0,
+    "low-alch": 6.0,
+    "store-price": 16.0
+  },
+  {
+    "id": "323",
+    "name": "Burnt fish",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "324",
+    "name": "Burnt fish",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "325",
+    "name": "Sardine",
+    "examine": "Some nicely cooked Sardines.",
+    "weight": 0.12,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 6.0,
+    "low-alch": 4.0,
+    "store-price": 10.0
+  },
+  {
+    "id": "326",
+    "name": "Sardine",
+    "examine": "Some nicely cooked Sardines.",
+    "weight": 0.12,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 6.0,
+    "low-alch": 4.0,
+    "store-price": 10.0
+  },
+  {
+    "id": "327",
+    "name": "Raw sardine",
+    "examine": "I should try cooking this.",
+    "weight": 0.12,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 6.0,
+    "low-alch": 4.0,
+    "store-price": 10.0
+  },
+  {
+    "id": "328",
+    "name": "Raw sardine",
+    "examine": "I should try cooking this.",
+    "weight": 0.12,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 6.0,
+    "low-alch": 4.0,
+    "store-price": 10.0
+  },
+  {
+    "id": "329",
+    "name": "Salmon",
+    "examine": "Some nicely cooked salmon.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 30.0,
+    "low-alch": 20.0,
+    "store-price": 88.0
+  },
+  {
+    "id": "330",
+    "name": "Salmon",
+    "examine": "Some nicely cooked salmon.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 30.0,
+    "low-alch": 20.0,
+    "store-price": 88.0
+  },
+  {
+    "id": "331",
+    "name": "Raw salmon",
+    "examine": "I should try cooking this.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 55.0,
+    "low-alch": 36.0,
+    "store-price": 36.0
+  },
+  {
+    "id": "332",
+    "name": "Raw salmon",
+    "examine": "I should try cooking this.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 55.0,
+    "low-alch": 36.0,
+    "store-price": 36.0
+  },
+  {
+    "id": "333",
+    "name": "Trout",
+    "examine": "Some nicely cooked trout.",
+    "weight": 0.4,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 12.0,
+    "low-alch": 8.0,
+    "store-price": 7.0
+  },
+  {
+    "id": "334",
+    "name": "Trout",
+    "examine": "Some nicely cooked trout.",
+    "weight": 0.4,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 12.0,
+    "low-alch": 8.0,
+    "store-price": 7.0
+  },
+  {
+    "id": "335",
+    "name": "Raw trout",
+    "examine": "I should try cooking this.",
+    "weight": 0.4,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 12.0,
+    "low-alch": 8.0,
+    "store-price": 7.0
+  },
+  {
+    "id": "336",
+    "name": "Raw trout",
+    "examine": "I should try cooking this.",
+    "weight": 0.4,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 12.0,
+    "low-alch": 8.0,
+    "store-price": 7.0
+  },
+  {
+    "id": "337",
+    "name": "Giant carp",
+    "examine": "Some nicely cooked giant carp.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 30.0,
+    "low-alch": 20.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "338",
+    "name": "Raw giant carp",
+    "examine": "I should try cooking this.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 30.0,
+    "low-alch": 20.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "339",
+    "name": "Cod",
+    "examine": "Some nicely cooked fish.",
+    "weight": 0.33,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 15.0,
+    "low-alch": 10.0,
+    "store-price": 26.0
+  },
+  {
+    "id": "340",
+    "name": "Cod",
+    "examine": "Some nicely cooked fish.",
+    "weight": 0.33,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 15.0,
+    "low-alch": 10.0,
+    "store-price": 26.0
+  },
+  {
+    "id": "341",
+    "name": "Raw cod",
+    "examine": "I should try cooking this.",
+    "weight": 0.33,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 15.0,
+    "low-alch": 10.0,
+    "store-price": 49.0
+  },
+  {
+    "id": "342",
+    "name": "Raw cod",
+    "examine": "I should try cooking this.",
+    "weight": 0.33,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 15.0,
+    "low-alch": 10.0,
+    "store-price": 49.0
+  },
+  {
+    "id": "343",
+    "name": "Burnt fish",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "344",
+    "name": "Burnt fish",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "345",
+    "name": "Raw herring",
+    "examine": "I should try cooking this.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 9.0,
+    "low-alch": 6.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "346",
+    "name": "Raw herring",
+    "examine": "I should try cooking this.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 9.0,
+    "low-alch": 6.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "347",
+    "name": "Herring",
+    "examine": "Some nicely cooked herring.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 9.0,
+    "low-alch": 6.0,
+    "store-price": 6.0
+  },
+  {
+    "id": "348",
+    "name": "Herring",
+    "examine": "Some nicely cooked herring.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 9.0,
+    "low-alch": 6.0,
+    "store-price": 6.0
+  },
+  {
+    "id": "349",
+    "name": "Raw pike",
+    "examine": "I should try cooking this.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 15.0,
+    "low-alch": 10.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "350",
+    "name": "Raw pike",
+    "examine": "I should try cooking this.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 15.0,
+    "low-alch": 10.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "351",
+    "name": "Pike",
+    "examine": "Some nicely cooked pike.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 15.0,
+    "low-alch": 10.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "352",
+    "name": "Pike",
+    "examine": "Some nicely cooked pike.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 15.0,
+    "low-alch": 10.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "353",
+    "name": "Raw mackerel",
+    "examine": "I should try cooking this.",
+    "weight": 0.3,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 15.0,
+    "low-alch": 10.0,
+    "store-price": 26.0
+  },
+  {
+    "id": "354",
+    "name": "Raw mackerel",
+    "examine": "I should try cooking this.",
+    "weight": 0.3,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 15.0,
+    "low-alch": 10.0,
+    "store-price": 26.0
+  },
+  {
+    "id": "355",
+    "name": "Mackerel",
+    "examine": "Some nicely cooked fish.",
+    "weight": 0.3,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 10.0,
+    "low-alch": 6.0,
+    "store-price": 23.0
+  },
+  {
+    "id": "356",
+    "name": "Mackerel",
+    "examine": "Some nicely cooked fish.",
+    "weight": 0.3,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 10.0,
+    "low-alch": 6.0,
+    "store-price": 23.0
+  },
+  {
+    "id": "357",
+    "name": "Burnt fish",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "358",
+    "name": "Burnt fish",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "359",
+    "name": "Raw tuna",
+    "examine": "I should try cooking this.",
+    "weight": 0.4,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 60.0,
+    "low-alch": 40.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "360",
+    "name": "Raw tuna",
+    "examine": "I should try cooking this.",
+    "weight": 0.4,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 60.0,
+    "low-alch": 40.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "361",
+    "name": "Tuna",
+    "examine": "Wow, this is a big fish.",
+    "weight": 0.4,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 72.0,
+    "low-alch": 48.0,
+    "store-price": 126.0
+  },
+  {
+    "id": "362",
+    "name": "Tuna",
+    "examine": "Wow, this is a big fish.",
+    "weight": 0.4,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 72.0,
+    "low-alch": 48.0,
+    "store-price": 126.0
+  },
+  {
+    "id": "363",
+    "name": "Raw bass",
+    "examine": "Wow, this is a big fish.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 72.0,
+    "low-alch": 48.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "364",
+    "name": "Raw bass",
+    "examine": "Wow, this is a big fish.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 72.0,
+    "low-alch": 48.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "365",
+    "name": "Bass",
+    "examine": "Wow, this is a big fish.",
+    "weight": 0.3,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 72.0,
+    "low-alch": 48.0,
+    "store-price": 270.0
+  },
+  {
+    "id": "366",
+    "name": "Bass",
+    "examine": "Wow, this is a big fish.",
+    "weight": 0.3,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 72.0,
+    "low-alch": 48.0,
+    "store-price": 270.0
+  },
+  {
+    "id": "367",
+    "name": "Burnt fish",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "368",
+    "name": "Burnt fish",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "369",
+    "name": "Burnt fish",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "370",
+    "name": "Burnt fish",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "371",
+    "name": "Raw swordfish",
+    "examine": "I should try cooking this.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 120.0,
+    "low-alch": 80.0,
+    "store-price": 400.0
+  },
+  {
+    "id": "372",
+    "name": "Raw swordfish",
+    "examine": "I should try cooking this.",
+    "weight": 0.5,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 120.0,
+    "low-alch": 80.0,
+    "store-price": 400.0
+  },
+  {
+    "id": "373",
+    "name": "Swordfish",
+    "examine": "I\u0027d better be careful eating this!",
+    "weight": 0.4,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 120.0,
+    "low-alch": 80.0,
+    "store-price": 400.0
+  },
+  {
+    "id": "374",
+    "name": "Swordfish",
+    "examine": "I\u0027d better be careful eating this!",
+    "weight": 0.4,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 120.0,
+    "low-alch": 80.0,
+    "store-price": 400.0
+  },
+  {
+    "id": "377",
+    "name": "Raw lobster",
+    "examine": "I should try cooking this.",
+    "weight": 0.4,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 90.0,
+    "low-alch": 60.0,
+    "store-price": 150.0
+  },
+  {
+    "id": "378",
+    "name": "Raw lobster",
+    "examine": "I should try cooking this.",
+    "weight": 0.4,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 90.0,
+    "low-alch": 60.0,
+    "store-price": 150.0
+  },
+  {
+    "id": "379",
+    "name": "Lobster",
+    "examine": "This looks tricky to eat.",
+    "weight": 0.33,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 90.0,
+    "low-alch": 60.0,
+    "store-price": 107.0
+  },
+  {
+    "id": "380",
+    "name": "Lobster",
+    "examine": "This looks tricky to eat.",
+    "weight": 0.33,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 90.0,
+    "low-alch": 60.0,
+    "store-price": 107.0
+  },
+  {
+    "id": "381",
+    "name": "Burnt lobster",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "382",
+    "name": "Burnt lobster",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "383",
+    "name": "Raw shark",
+    "examine": "I should try cooking this.",
+    "weight": 0.7,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 180.0,
+    "low-alch": 120.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "384",
+    "name": "Raw shark",
+    "examine": "I should try cooking this.",
+    "weight": 0.7,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 180.0,
+    "low-alch": 120.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "385",
+    "name": "Shark",
+    "examine": "I\u0027d better be careful eating this.",
+    "weight": 0.6,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 180.0,
+    "low-alch": 120.0,
+    "store-price": 386.0
+  },
+  {
+    "id": "386",
+    "name": "Shark",
+    "examine": "I\u0027d better be careful eating this.",
+    "weight": 0.6,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 180.0,
+    "low-alch": 120.0,
+    "store-price": 386.0
+  },
+  {
+    "id": "389",
+    "name": "Raw manta ray",
+    "examine": "Tastier when cooked.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 300.0,
+    "low-alch": 200.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "390",
+    "name": "Raw manta ray",
+    "examine": "Tastier when cooked.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 300.0,
+    "low-alch": 200.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "391",
+    "name": "Manta ray",
+    "examine": "Mmmm...this looks tasty!",
+    "weight": 0.4,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 300.0,
+    "low-alch": 200.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "392",
+    "name": "Manta ray",
+    "examine": "Mmmm...this looks tasty!",
+    "weight": 0.4,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 300.0,
+    "low-alch": 200.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "395",
+    "name": "Raw sea turtle",
+    "examine": "Looks wrinkly.",
+    "weight": 0.4,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 300.0,
+    "low-alch": 200.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "396",
+    "name": "Raw sea turtle",
+    "examine": "Looks wrinkly.",
+    "weight": 0.4,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 300.0,
+    "low-alch": 200.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "397",
+    "name": "Sea turtle",
+    "examine": "Tasty!",
+    "weight": 0.35,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 300.0,
+    "low-alch": 200.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "398",
+    "name": "Sea turtle",
+    "examine": "Tasty!",
+    "weight": 0.35,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 300.0,
+    "low-alch": 200.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "401",
+    "name": "Seaweed",
+    "examine": "Slightly damp seaweed.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 1.0,
+    "low-alch": 0.0,
+    "store-price": 200.0
+  },
+  {
+    "id": "402",
+    "name": "Seaweed",
+    "examine": "Slightly damp seaweed.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 1.0,
+    "low-alch": 0.0,
+    "store-price": 200.0
+  },
+  {
+    "id": "403",
+    "name": "Edible seaweed",
+    "examine": "Slightly damp seaweed.",
+    "weight": 0.2,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 1.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "404",
+    "name": "Edible seaweed",
+    "examine": "Slightly damp seaweed.",
+    "weight": 0.2,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 1.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "405",
+    "name": "Casket",
+    "examine": "I hope there is treasure in it.",
+    "weight": 5.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 30.0,
+    "low-alch": 20.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "406",
+    "name": "Casket",
+    "examine": "I hope there is treasure in it.",
+    "weight": 5.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 30.0,
+    "low-alch": 20.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "407",
+    "name": "Oyster",
+    "examine": "Maybe there are pearls inside?",
+    "weight": 0.1,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 120.0,
+    "low-alch": 80.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "408",
+    "name": "Oyster",
+    "examine": "Maybe there are pearls inside?",
+    "weight": 0.1,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 120.0,
+    "low-alch": 80.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "409",
+    "name": "Empty oyster",
+    "examine": "Aww, it\u0027s empty.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "410",
+    "name": "Empty oyster",
+    "examine": "Aww, it\u0027s empty.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 3.0,
+    "low-alch": 2.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "411",
+    "name": "Oyster pearl",
+    "examine": "I could work wonders with a chisel on this pearl.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 67.0,
+    "low-alch": 44.0,
+    "store-price": 44.0
+  },
+  {
+    "id": "412",
+    "name": "Oyster pearl",
+    "examine": "I could work wonders with a chisel on this pearl.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 67.0,
+    "low-alch": 44.0,
+    "store-price": 44.0
+  },
+  {
+    "id": "413",
+    "name": "Oyster pearls",
+    "examine": "I could work wonders with a \u003ca href\u003d\"/wiki/Chisel\" title\u003d\"Chisel\"\u003echisel\u003c/a\u003e on these pearls.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 840.0,
+    "low-alch": 560.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "414",
+    "name": "Oyster pearls",
+    "examine": "I could work wonders with a \u003ca href\u003d\"/wiki/Chisel\" title\u003d\"Chisel\"\u003echisel\u003c/a\u003e on these pearls.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 840.0,
+    "low-alch": 560.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "415",
+    "name": "Ethenea",
+    "examine": "An expensive colourless liquid.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "416",
+    "name": "Liquid honey",
+    "examine": "This isn\u0027t worth much.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "417",
+    "name": "Sulphuric broline",
+    "examine": "It\u0027s highly poisonous.",
+    "weight": 1.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "418",
+    "name": "Plague sample",
+    "examine": "Probably best I don\u0027t keep this too long.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "419",
+    "name": "Touch paper",
+    "examine": "A special kind of paper.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "420",
+    "name": "Distillator",
+    "examine": "Apparently it distills.",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "422",
+    "name": "Bird feed",
+    "examine": "Birds love this stuff!",
+    "weight": 0.1,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "423",
+    "name": "Key",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "424",
+    "name": "Pigeon cage",
+    "examine": "(empty) It\u0027s empty... \u003cbr /\u003e (full) It\u0027s full of pigeons.",
+    "weight": 0.1,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "425",
+    "name": "Pigeon cage",
+    "examine": "(empty) It\u0027s empty... \u003cbr /\u003e (full) It\u0027s full of pigeons.",
+    "weight": 0.1,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "426",
+    "name": "Priest gown",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "427",
+    "name": "Priest gown",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "428",
+    "name": "Priest gown",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
+  },
+  {
+    "id": "429",
+    "name": "Priest gown",
+    "weight": 0.0,
+    "stackable": false,
+    "equipable": false,
+    "high-alch": 0.0,
+    "low-alch": 0.0,
+    "store-price": 0.0
   }
 ]
