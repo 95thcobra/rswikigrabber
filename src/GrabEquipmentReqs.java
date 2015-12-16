@@ -10,7 +10,10 @@ import java.net.URLConnection;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -47,9 +50,9 @@ public class GrabEquipmentReqs {
 			jsonObject.addProperty("string2", "text2");
 			jsonObject.addProperty("number1", 1);
 			jsonArray.add(jsonObject);
-			
+
 			writer.write(builder.toJson(jsonArray));
-			
+
 			writer.close();
 		} catch (IOException ex) {
 			// logger.log(Level.SEVERE, "An error occured while trying to save a
@@ -57,7 +60,7 @@ public class GrabEquipmentReqs {
 		}
 		return true;
 	}
-	
+
 	public static void start() throws IOException {
 
 		Path path = Paths.get("myequipmentreqs.json");
@@ -78,84 +81,52 @@ public class GrabEquipmentReqs {
 			int first = line.indexOf(" : ") + 3;
 			int second = line.indexOf(" : ", first + 1);
 
-			String id = line.substring(0, first - 3);
+			String idText = line.substring(0, first - 3);
+			int id = Integer.parseInt(idText);
 			String itemName = line.substring(first, second);
-			
-			/*try (FileWriter writer = new FileWriter(file)) {
-				JsonObject jsonObject = new JsonObject();
 
-				jsonObject.addProperty("id", id);
-				jsonObject.addProperty("name", itemName);
-				//jsonObject.add("requirements", builder.toJsonTree(getRequirements(itemName)));
-				jsonObject.add("gewa", lol);
+			/////////////////////////////////////////////
+			JsonArray requirements = new JsonArray();
 
-				jsonArray.add(jsonObject);
+			Map<String, Integer> kanker;
+			try {
+				kanker = getRequirementsMaps(itemName);
+			} catch (Exception e) {
+				continue;
+			}
 
-				writer.write(builder.toJson(jsonArray));
-				System.out.println("id: " + id + ", itemName: " + itemName);
-			} catch (IOException ex) {
-				System.out.println("?");
-			}*/
-			
+			for (Map.Entry<String, Integer> entry : kanker.entrySet()) {
+				JsonObject test2 = new JsonObject();
+				test2.addProperty("skill", entry.getKey());
+				test2.addProperty("level", entry.getValue());
+				requirements.add(test2);
+			}
+
+			if (kanker.size() <= 0) {
+				continue;
+			}
+			/////////////////////////////////////////////
+
 			try (FileWriter writer = new FileWriter(file)) {
-				//Gson builder = new GsonBuilder().setPrettyPrinting().create();
-				//JsonArray jsonArray = new JsonArray();
 				JsonObject jsonObject = new JsonObject();
-
 				jsonObject.addProperty("id", id);
-				jsonObject.addProperty("name", itemName);
-				
-				
-				
-				JsonArray requirements = new JsonArray();	
-
-				try {
-					for (JsonObject jso : getRequirements(itemName)) {
-						requirements.add(jso);
-					}
-				//requirements.add(getRequirements(itemName).get(0));
-				} catch(Exception e) {
-					continue;
-				}
-				
-				/*
-				List<JsonObject> test = getRequirements(itemName);
-				if (test.isEmpty()) {
-					continue;
-				}
-				for (JsonObject json : test) {
-					requirements.add(json);
-				}*/
-				
-				
 				jsonObject.add("requirements", requirements);
-				
-				
-				jsonObject.add("test", requirements);
-				
 				jsonArray.add(jsonObject);
-				
-				System.out.println("id: " + id + ", itemName: " + itemName);
-				
 				writer.write(builder.toJson(jsonArray));
-				
 				writer.close();
+				System.out.println("id: " + id + ", itemName: " + itemName);
 			} catch (IOException ex) {
-				// logger.log(Level.SEVERE, "An error occured while trying to save a
-				// player file.");
 			}
 		}
 		in.close();
 	}
 
-	/**
-	 * REQUIREMENTS
-	 */
-	public static List<JsonObject> getRequirements(String itemName) throws IOException {
+	public static Map<String, Integer> getRequirementsMaps(String itemName) throws IOException {
+
+		Map<String, Integer> map = new HashMap<String, Integer>();
+
 		final String[] SKILL_NAMES = { "Attack", "Defence", "Strength", "Hitpoints", "Ranged", "Prayer", "Magic", "Cooking", "Woodcutting", "Fletching", "Fishing", "Firemaking", "Crafting", "Smithing", "Mining", "Herblore", "Agility", "Thieving", "Slayer", "Farming", "Runecraft" };
-		List<JsonObject> jsonList = new ArrayList<>();
-		//List<Integer> jsonList2 = new ArrayList<>();
-		
+
 		URL url = new URL("http://2007.runescape.wikia.com/wiki/" + itemName.replace(' ', '_'));
 		URLConnection con = url.openConnection();
 		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
@@ -165,16 +136,11 @@ public class GrabEquipmentReqs {
 				String skillName = SKILL_NAMES[i];
 				String skill = "<a href=\"/wiki/" + skillName + "\" title=\"" + skillName + "\">" + skillName + "</a>";
 				if (line.contains(skill)) {
-					JsonObject object = new JsonObject();
-					object.addProperty("level", 22);
-					object.addProperty("skill", skillName.toUpperCase());
-					jsonList.add(object);
-					//jsonList2.add(2);
+					map.put(skillName.toUpperCase(), 22);
 				}
 			}
 		}
 		in.close();
-		return jsonList;
-		//return jsonList2;
+		return map;
 	}
 }

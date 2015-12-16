@@ -49,7 +49,8 @@ public class GrabItemDefs {
 			int second = line.indexOf(" : ", first + 1);
 
 			// Gets the examine.
-			String id = line.substring(0, first - 3);
+			String idText = line.substring(0, first - 3);
+			int id = Integer.parseInt(idText);
 			String itemName = line.substring(first, second);
 
 			String examine = null;

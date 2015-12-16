@@ -1,0 +1,544 @@
+[
+  {
+    "id": 2,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "SMITHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "requirements": [
+      {
+        "skill": "HITPOINTS",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "requirements": [
+      {
+        "skill": "FIREMAKING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 22
+      },
+      {
+        "skill": "ATTACK",
+        "level": 22
+      },
+      {
+        "skill": "HITPOINTS",
+        "level": 22
+      },
+      {
+        "skill": "STRENGTH",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "requirements": [
+      {
+        "skill": "FIREMAKING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "requirements": [
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "requirements": [
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "requirements": [
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "requirements": [
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "requirements": [
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "MAGIC",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 22
+      },
+      {
+        "skill": "MAGIC",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "requirements": [
+      {
+        "skill": "HERBLORE",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "requirements": [
+      {
+        "skill": "HERBLORE",
+        "level": 22
+      }
+    ]
+  }
+]
