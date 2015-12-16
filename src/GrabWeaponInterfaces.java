@@ -20,7 +20,7 @@ import com.google.gson.JsonObject;
  * 
  * @author Sky
  */
-public class Grab {
+public class GrabWeaponInterfaces {
 
 	/**
 	 * Read id and name from txt file.
@@ -61,8 +61,8 @@ public class Grab {
 			double lowAlch;
 			double storePrice;
 			String destroy;
-			
-			//int[] bonus;
+
+			// int[] bonus;
 
 			// If the item is not found, go to next iteration.
 			try {
@@ -93,12 +93,13 @@ public class Grab {
 				jsonObject.addProperty("high-alch", highAlch);
 				jsonObject.addProperty("low-alch", lowAlch);
 				jsonObject.addProperty("store-price", storePrice);
-				//jsonObject.addProperty("destroy", destroy);
+				// jsonObject.addProperty("destroy", destroy);
 				if (equipable) {
-				jsonObject.add("bonus", builder.toJsonTree(getBonus(itemName)));
+					jsonObject.add("bonus", builder.toJsonTree(getBonus(itemName)));
+					jsonObject.add("requirements", builder.toJsonTree(getRequirements(itemName)));
 				}
 				System.out.println("id: " + id + ", itemName: " + itemName);
-				//System.out.println("name: " + itemName);
+				// System.out.println("name: " + itemName);
 
 				jsonArray.add(jsonObject);
 
@@ -109,9 +110,43 @@ public class Grab {
 		}
 		in.close();
 	}
-	
+
+	/**
+	 * REQUIREMENTS
+	 */
+	public static JsonObject[] getRequirements(String itemName) throws IOException {
+		final String[] SKILL_NAMES = { "Attack", "Defence", "Strength", "Hitpoints", "Ranged", "Prayer", "Magic", "Cooking", "Woodcutting", "Fletching", "Fishing", "Firemaking", "Crafting", "Smithing", "Mining", "Herblore", "Agility", "Thieving", "Slayer", "Farming", "Runecraft" };
+
+		URL url = new URL("http://2007.runescape.wikia.com/wiki/" + itemName.replace(' ', '_'));
+		URLConnection con = url.openConnection();
+		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+		String line;
+		while ((line = in.readLine()) != null) {
+			for(int i = 0 ; i < SKILL_NAMES.length; i++) {
+				String skillName = SKILL_NAMES[i];
+				String skill = "<a href=\"/wiki/"+ skillName +"\" title=\""+skillName+"\">"+skillName+"</a>";
+
+				// do checking
+			}
+
+			String text = "<td style=\"text-align: center; width:";
+			if (line.contains(text)) {
+				int beginIndex = line.indexOf("\">") + 2;
+				if (line.contains("+")) {
+					line = line.replace("+", "");
+				}
+				if (line.contains("%")) {
+					line = line.replace("%", "");
+				}
+			}
+		}
+		in.close();
+		return null;
+	}
+
 	/**
 	 * Rewrite to this, so you dont have to connect over and over.
+	 * 
 	 * @param itemName
 	 * @return
 	 * @throws IOException
@@ -123,44 +158,40 @@ public class Grab {
 		String line;
 		while ((line = in.readLine()) != null) {
 			if (line.contains("weight")) {
-				//handleweight;
+				// handleweight;
 			}
 			if (line.contains("price")) {
-				//handleprice;
+				// handleprice;
 			}
 		}
 		in.close();
 		return null;
 	}
-	
+
 	public static int[] getBonus(String itemName) throws IOException {
 		int[] array = new int[14];
 		int count = 0;
-		
+
 		URL url = new URL("http://2007.runescape.wikia.com/wiki/" + itemName.replace(' ', '_'));
 		URLConnection con = url.openConnection();
 		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
 		String line;
-		while ((line = in.readLine()) != null) {		
+		while ((line = in.readLine()) != null) {
 			String text = "<td style=\"text-align: center; width:";
 			if (line.contains(text)) {
-				/*if (line.contains("+")) {
-					int beginIndex = line.indexOf("+") + 1;
-
-					array[count] = Integer.parseInt(line.substring(beginIndex));
-					continue;
-				}
-				if (line.contains("-")) {
-					int beginIndex = line.indexOf(">-") + 2;
-					array[count] = Integer.parseInt(text.substring(beginIndex));
-					continue;
-				}
-				if (line.contains("%")) {
-					int beginIndex = line.indexOf(">") + 1;
-					int endIndex = line.indexOf("%");
-					array[count] = Integer.parseInt(text.substring(beginIndex, endIndex));
-					continue;
-				}*/
+				/*
+				 * if (line.contains("+")) { int beginIndex = line.indexOf("+")
+				 * + 1;
+				 * 
+				 * array[count] = Integer.parseInt(line.substring(beginIndex));
+				 * continue; } if (line.contains("-")) { int beginIndex =
+				 * line.indexOf(">-") + 2; array[count] =
+				 * Integer.parseInt(text.substring(beginIndex)); continue; } if
+				 * (line.contains("%")) { int beginIndex = line.indexOf(">") +
+				 * 1; int endIndex = line.indexOf("%"); array[count] =
+				 * Integer.parseInt(text.substring(beginIndex, endIndex));
+				 * continue; }
+				 */
 				int beginIndex = line.indexOf("\">") + 2;
 				if (line.contains("+")) {
 					line = line.replace("+", "");
@@ -170,7 +201,7 @@ public class Grab {
 				}
 				array[count] = Integer.parseInt(line.substring(beginIndex));
 				count++;
-			}	
+			}
 		}
 		in.close();
 		return array;
@@ -232,35 +263,36 @@ public class Grab {
 		String line;
 		while ((line = in.readLine()) != null) {
 			String text = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/Weight\" title=\"Weight\">Weight</a>";
-			//String text = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/Weight\" title=\"Weight\">Weight</a>";
+			// String text = "<th style=\"white-space: nowrap;\"><a
+			// href=\"/wiki/Weight\" title=\"Weight\">Weight</a>";
 			String contains1 = "</th><td> ";
 			String contains2 = "&#160;kg";
-			
+
 			if (line.contains(text)) {
-			
-			line = in.readLine();
-			if (line.contains("<b>Inventory:</b> ")) {
-				String inventory = "<b>Inventory:</b> ";
-				int beginIndex = line.indexOf(inventory) + inventory.length() + 1;
-				int endIndex = line.indexOf("&#");
-				return Double.parseDouble(line.substring(beginIndex, endIndex));
-			}
-			if (line.contains("</th><td> (empty) ")) {
-				String inventory = "</th><td> (empty) ";
-				int beginIndex = line.indexOf(inventory) + inventory.length() + 1;
-				int endIndex = line.indexOf("&#");
-				return Double.parseDouble(line.substring(beginIndex, endIndex));
-			}
-			//if (line.contains(contains1) && line.contains(contains2)) {
+
+				line = in.readLine();
+				if (line.contains("<b>Inventory:</b> ")) {
+					String inventory = "<b>Inventory:</b> ";
+					int beginIndex = line.indexOf(inventory) + inventory.length() + 1;
+					int endIndex = line.indexOf("&#");
+					return Double.parseDouble(line.substring(beginIndex, endIndex));
+				}
+				if (line.contains("</th><td> (empty) ")) {
+					String inventory = "</th><td> (empty) ";
+					int beginIndex = line.indexOf(inventory) + inventory.length() + 1;
+					int endIndex = line.indexOf("&#");
+					return Double.parseDouble(line.substring(beginIndex, endIndex));
+				}
+				// if (line.contains(contains1) && line.contains(contains2)) {
 				int beginIndex = contains1.length();
 				int endIndex = line.indexOf("&#");
 				try {
-				return Double.parseDouble(line.substring(beginIndex, endIndex));
-				} catch(Exception e) {
+					return Double.parseDouble(line.substring(beginIndex, endIndex));
+				} catch (Exception e) {
 					return 0;
 				}
-			//}
-				
+				// }
+
 			}
 		}
 		in.close();
@@ -323,12 +355,12 @@ public class Grab {
 				}
 				String value = line.substring(beginIndex, endIndex);
 				try {
-				value = value.replace(',', '.');
-				} catch(Exception e) {
+					value = value.replace(',', '.');
+				} catch (Exception e) {
 					return 0;
 				}
 				try {
-				return Double.parseDouble(value);
+					return Double.parseDouble(value);
 				} catch (Exception e) {
 					return 0;
 				}
