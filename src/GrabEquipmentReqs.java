@@ -86,14 +86,20 @@ public class GrabEquipmentReqs {
 			String itemName = line.substring(first, second);
 
 			/////////////////////////////////////////////
-			JsonArray requirements = new JsonArray();
-
 			Map<String, Integer> kanker;
+			boolean equipable;
 			try {
+				equipable = getEquipable(itemName);
 				kanker = getRequirementsMaps(itemName);
 			} catch (Exception e) {
 				continue;
 			}
+
+			if (!equipable) {
+				continue;
+			}
+
+			JsonArray requirements = new JsonArray();
 
 			for (Map.Entry<String, Integer> entry : kanker.entrySet()) {
 				JsonObject test2 = new JsonObject();
@@ -131,16 +137,48 @@ public class GrabEquipmentReqs {
 		URLConnection con = url.openConnection();
 		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
 		String line;
+
+		// <a href="/wiki/Attack" title="Attack">Attack</a>
+
 		while ((line = in.readLine()) != null) {
 			for (int i = 0; i < SKILL_NAMES.length; i++) {
 				String skillName = SKILL_NAMES[i];
-				String skill = "<a href=\"/wiki/" + skillName + "\" title=\"" + skillName + "\">" + skillName + "</a>";
-				if (line.contains(skill)) {
-					map.put(skillName.toUpperCase(), 22);
+				String contain = "<a href=\"/wiki/" + skillName + "\" title=\"" + skillName + "\">" + skillName + "</a>";
+				//System.out.println(contain);
+				// while ((line = in.readLine()) != null) {
+				if (line.contains(contain)) {
+					//System.out.println(line);
+					map.put(skillName.toUpperCase(), 1);
 				}
 			}
 		}
 		in.close();
 		return map;
 	}
+
+	public static boolean getEquipable(String itemName) throws IOException {
+		String line = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/Equipment\" title=\"Equipment\">Equipable</a>?";
+		return getBoolean(itemName, line);
+	}
+
+	public static boolean getBoolean(String itemName, String text) throws IOException {
+		URL url = new URL("http://2007.runescape.wikia.com/wiki/" + itemName.replace(' ', '_'));
+		URLConnection con = url.openConnection();
+		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+		String line;
+		while ((line = in.readLine()) != null) {
+			if (line.contains(text)) {
+				// Go to next line.
+				line = in.readLine();
+				if (line.contains("Yes")) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+		}
+		in.close();
+		return false;
+	}
+
 }
