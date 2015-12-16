@@ -53,9 +53,11 @@ public class GrabItemDefs {
 			int id = Integer.parseInt(idText);
 			String itemName = line.substring(first, second);
 
-			String examine = null;
+			String description = null;
 			double weight;
+			boolean tradable = false;
 			boolean stackable = false;
+			boolean notable = false;
 			boolean equipable = false;
 
 			double highAlch;
@@ -67,9 +69,12 @@ public class GrabItemDefs {
 
 			// If the item is not found, go to next iteration.
 			try {
-				examine = getExamineByName(itemName);
+				description = getDescByName(itemName);
 				weight = getWeightByName(itemName);
+				
+				tradable = isTradable(itemName);
 				stackable = getStackable(itemName);
+				
 				equipable = getEquipable(itemName);
 
 				highAlch = getHighAlchValue(itemName);
@@ -81,16 +86,20 @@ public class GrabItemDefs {
 				continue;
 			}
 
+			/**
+			 * STIL NEED PLATEBODY AND FULLHELM AND 2HANDED
+			 */
 			try (FileWriter writer = new FileWriter(file)) {
 				JsonObject jsonObject = new JsonObject();
-
 				jsonObject.addProperty("id", id);
 				jsonObject.addProperty("name", itemName);
-				jsonObject.addProperty("examine", examine);
+				jsonObject.addProperty("description", description);
 				jsonObject.addProperty("weight", weight);
+				jsonObject.addProperty("tradable", tradable);
 				jsonObject.addProperty("stackable", stackable);
+				jsonObject.addProperty("notable", isNotable(stackable, tradable));
 				jsonObject.addProperty("equipable", equipable);
-
+				jsonObject.addProperty("equipment-type", getEquipmentType(itemName));
 				jsonObject.addProperty("high-alch", highAlch);
 				jsonObject.addProperty("low-alch", lowAlch);
 				jsonObject.addProperty("store-price", storePrice);
@@ -108,6 +117,10 @@ public class GrabItemDefs {
 		}
 		in.close();
 	}
+	
+	public static boolean isNotable(boolean stackable, boolean tradable) {
+		return !stackable && tradable;
+	}
 
 	/**
 	 * Do requirements in another file.
@@ -120,9 +133,9 @@ public class GrabItemDefs {
 		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
 		String line;
 		while ((line = in.readLine()) != null) {
-			for(int i = 0 ; i < SKILL_NAMES.length; i++) {
+			for (int i = 0; i < SKILL_NAMES.length; i++) {
 				String skillName = SKILL_NAMES[i];
-				String skill = "<a href=\"/wiki/"+ skillName +"\" title=\""+skillName+"\">"+skillName+"</a>";
+				String skill = "<a href=\"/wiki/" + skillName + "\" title=\"" + skillName + "\">" + skillName + "</a>";
 
 				// do checking
 			}
@@ -239,7 +252,40 @@ public class GrabItemDefs {
 		return "DROP";
 	}
 
-	public static String getExamineByName(String itemName) throws IOException {
+	public static String getEquipmentType(String itemName) throws IOException {
+
+		final String[][] SLOTS = { 
+				{ "Weapon", "WEAPON" }, 
+				{ "Head", "HAT" }, 
+				{ "Neck", "AMULET" }, 
+				{ "Feet", "BOOTS" }, 
+				{ "Hands", "HANDS" }, 
+				{ "Shield", "SHIELD" }, 
+				{ "Ring", "RING" }, 
+				{ "Ammunition", "ARROW" }, 
+				{ "Legwear", "LEGS" }, 
+				{ "Body", "BODY" } };
+
+		URL url = new URL("http://2007.runescape.wikia.com/wiki/" + itemName.replace(' ', '_'));
+		URLConnection con = url.openConnection();
+		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+		String line;
+		while ((line = in.readLine()) != null)
+		{
+			for (int i = 0; i < SLOTS.length; i++) {
+				String slot = SLOTS[i][0];
+				String displaySlot = SLOTS[i][1];
+				String text = "Category:" + slot + " slot items";
+				if (line.contains(text)) {
+					return displaySlot;
+				}
+			}
+		}
+		in.close();
+		return "NONE";
+	}
+
+	public static String getDescByName(String itemName) throws IOException {
 		URL url = new URL("http://2007.runescape.wikia.com/wiki/" + itemName.replace(' ', '_'));
 		URLConnection con = url.openConnection();
 		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
@@ -304,6 +350,11 @@ public class GrabItemDefs {
 
 	public static boolean getEquipable(String itemName) throws IOException {
 		String line = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/Equipment\" title=\"Equipment\">Equipable</a>?";
+		return getBoolean(itemName, line);
+	}
+	
+	public static boolean isTradable(String itemName) throws IOException {
+		String line = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/Tradeable\" title=\"Tradeable\" class=\"mw-redirect\">Tradeable</a>?";
 		return getBoolean(itemName, line);
 	}
 
