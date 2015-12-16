@@ -10,14 +10,10 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
 public class WriteToJson {
-
-	public static void prepare() {
-		
-	}
 	
 	public static boolean save() throws IOException {
 
-		Path path = Paths.get("myitemdef.json");
+		Path path = Paths.get("test.json");
 		File file = path.toFile();
 		if (!file.exists()) {
 			file.createNewFile();

@@ -94,9 +94,7 @@ public class GrabItemDefs {
 				jsonObject.addProperty("low-alch", lowAlch);
 				jsonObject.addProperty("store-price", storePrice);
 				// jsonObject.addProperty("destroy", destroy);
-				if (equipable) {
-					jsonObject.add("bonus", builder.toJsonTree(getBonus(itemName)));
-				}
+				jsonObject.add("bonus", builder.toJsonTree(getBonus(itemName)));
 				System.out.println("id: " + id + ", itemName: " + itemName);
 				// System.out.println("name: " + itemName);
 

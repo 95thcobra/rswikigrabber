@@ -4,6 +4,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		//WriteToJson.save();
-		GrabItemDefs.start();
+		//GrabItemDefs.start();
+		GrabEquipmentReqs.start();
 	}
 }
