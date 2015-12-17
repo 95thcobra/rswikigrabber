@@ -71,10 +71,10 @@ public class GrabItemDefs {
 			try {
 				description = getDescByName(itemName);
 				weight = getWeightByName(itemName);
-				
+
 				tradable = isTradable(itemName);
 				stackable = getStackable(itemName);
-				
+
 				equipable = getEquipable(itemName);
 
 				highAlch = getHighAlchValue(itemName);
@@ -87,7 +87,7 @@ public class GrabItemDefs {
 			}
 
 			/**
-			 * STIL NEED PLATEBODY AND FULLHELM AND 2HANDED
+			 * STIL NEED PLATEBODY AND FULLHELM AND 2HANDED AND NOTE
 			 */
 			try (FileWriter writer = new FileWriter(file)) {
 				JsonObject jsonObject = new JsonObject();
@@ -98,6 +98,7 @@ public class GrabItemDefs {
 				jsonObject.addProperty("tradable", tradable);
 				jsonObject.addProperty("stackable", stackable);
 				jsonObject.addProperty("notable", isNotable(stackable, tradable));
+				jsonObject.addProperty("noted", isNote(idText));
 				jsonObject.addProperty("equipable", equipable);
 				jsonObject.addProperty("equipment-type", getEquipmentType(itemName));
 				jsonObject.addProperty("high-alch", highAlch);
@@ -117,6 +118,26 @@ public class GrabItemDefs {
 		}
 		in.close();
 	}
+
+	public static boolean isNote(String id) throws IOException {
+		BufferedReader reader = new BufferedReader(new FileReader("isnotedump.txt"));
+		Boolean bool = false;
+		try {
+			String line;
+		    while ((line = reader.readLine()) != null) {
+		        String[] array = line.split("\\$");
+		        String id2 = array[0].substring(line.indexOf("id") + 2);
+		        if (id.equals(id2)) {
+		        	bool = Boolean.parseBoolean(array[2]);
+		        	break;
+		        }
+		    }
+		} finally {
+		    reader.close();
+		}
+
+		return bool;
+	}
 	
 	public static boolean isNotable(boolean stackable, boolean tradable) {
 		return !stackable && tradable;
@@ -126,7 +147,28 @@ public class GrabItemDefs {
 	 * Do requirements in another file.
 	 */
 	public static JsonObject[] getRequirements(String itemName) throws IOException {
-		final String[] SKILL_NAMES = { "Attack", "Defence", "Strength", "Hitpoints", "Ranged", "Prayer", "Magic", "Cooking", "Woodcutting", "Fletching", "Fishing", "Firemaking", "Crafting", "Smithing", "Mining", "Herblore", "Agility", "Thieving", "Slayer", "Farming", "Runecraft" };
+		final String[] SKILL_NAMES = {
+				"Attack",
+				"Defence",
+				"Strength",
+				"Hitpoints",
+				"Ranged",
+				"Prayer",
+				"Magic",
+				"Cooking",
+				"Woodcutting",
+				"Fletching",
+				"Fishing",
+				"Firemaking",
+				"Crafting",
+				"Smithing",
+				"Mining",
+				"Herblore",
+				"Agility",
+				"Thieving",
+				"Slayer",
+				"Farming",
+				"Runecraft" };
 
 		URL url = new URL("http://2007.runescape.wikia.com/wiki/" + itemName.replace(' ', '_'));
 		URLConnection con = url.openConnection();
@@ -254,24 +296,43 @@ public class GrabItemDefs {
 
 	public static String getEquipmentType(String itemName) throws IOException {
 
-		final String[][] SLOTS = { 
-				{ "Weapon", "WEAPON" }, 
-				{ "Head", "HAT" }, 
-				{ "Neck", "AMULET" }, 
-				{ "Feet", "BOOTS" }, 
-				{ "Hands", "HANDS" }, 
-				{ "Shield", "SHIELD" }, 
-				{ "Ring", "RING" }, 
-				{ "Ammunition", "ARROW" }, 
-				{ "Legwear", "LEGS" }, 
-				{ "Body", "BODY" } };
+		final String[][] SLOTS = {
+				{
+						"Weapon",
+						"WEAPON" },
+				{
+						"Head",
+						"HAT" },
+				{
+						"Neck",
+						"AMULET" },
+				{
+						"Feet",
+						"BOOTS" },
+				{
+						"Hands",
+						"HANDS" },
+				{
+						"Shield",
+						"SHIELD" },
+				{
+						"Ring",
+						"RING" },
+				{
+						"Ammunition",
+						"ARROW" },
+				{
+						"Legwear",
+						"LEGS" },
+				{
+						"Body",
+						"BODY" } };
 
 		URL url = new URL("http://2007.runescape.wikia.com/wiki/" + itemName.replace(' ', '_'));
 		URLConnection con = url.openConnection();
 		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
 		String line;
-		while ((line = in.readLine()) != null)
-		{
+		while ((line = in.readLine()) != null) {
 			for (int i = 0; i < SLOTS.length; i++) {
 				String slot = SLOTS[i][0];
 				String displaySlot = SLOTS[i][1];
@@ -352,7 +413,7 @@ public class GrabItemDefs {
 		String line = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/Equipment\" title=\"Equipment\">Equipable</a>?";
 		return getBoolean(itemName, line);
 	}
-	
+
 	public static boolean isTradable(String itemName) throws IOException {
 		String line = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/Tradeable\" title=\"Tradeable\" class=\"mw-redirect\">Tradeable</a>?";
 		return getBoolean(itemName, line);
