@@ -101,11 +101,18 @@ public class GrabItemDefs {
 				jsonObject.addProperty("noted", isNote(idText));
 				jsonObject.addProperty("equipable", equipable);
 				jsonObject.addProperty("equipment-type", getEquipmentType(itemName));
+
+				jsonObject.addProperty("two-handed", getTwoHanded(itemName));
+				jsonObject.addProperty("platebody", itemName.contains("platebody"));
+				jsonObject.addProperty("fullhelm", itemName.contains("fullhelm"));
+
 				jsonObject.addProperty("high-alch", highAlch);
 				jsonObject.addProperty("low-alch", lowAlch);
 				jsonObject.addProperty("store-price", storePrice);
 				// jsonObject.addProperty("destroy", destroy);
+
 				jsonObject.add("bonus", builder.toJsonTree(getBonus(itemName)));
+
 				System.out.println("id: " + id + ", itemName: " + itemName);
 				// System.out.println("name: " + itemName);
 
@@ -119,6 +126,22 @@ public class GrabItemDefs {
 		in.close();
 	}
 
+	public static boolean getTwoHanded(String itemName) throws IOException {
+		boolean twoh = false;
+		URL url = new URL("http://2007.runescape.wikia.com/wiki/" + itemName.replace(' ', '_'));
+		URLConnection con = url.openConnection();
+		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+		String line;
+		while ((line = in.readLine()) != null) {
+			if (line.contains("two-handed")) {
+				twoh = true;
+				break;
+			}
+		}
+		in.close();
+		return twoh;
+	}
+	
 	public static boolean isNote(String id) throws IOException {
 		BufferedReader reader = new BufferedReader(new FileReader("isnotedump.txt"));
 		Boolean bool = false;
@@ -138,7 +161,7 @@ public class GrabItemDefs {
 
 		return bool;
 	}
-	
+
 	public static boolean isNotable(boolean stackable, boolean tradable) {
 		return !stackable && tradable;
 	}
@@ -445,35 +468,39 @@ public class GrabItemDefs {
 		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
 		String line;
 		while ((line = in.readLine()) != null) {
-			String contains1 = text;
-			if (line.contains(contains1)) {
-				// Go to next line.
-				line = in.readLine();
-				if (!line.contains("&")) {
-					return 0;
+			try {
+				String contains1 = text;
+				if (line.contains(contains1)) {
+					// Go to next line.
+					line = in.readLine();
+					if (!line.contains("&")) {
+						return 0;
+					}
+					if (line.contains("-")) {
+						String value = line.substring(line.indexOf('-') - 1, line.indexOf('-'));
+						return Double.parseDouble(value);
+					}
+					int beginIndex = line.indexOf(' ') + 1;
+					int endIndex;
+					if (line.contains("-")) {
+						endIndex = line.indexOf('-');
+					} else {
+						endIndex = line.indexOf('&');
+					}
+					String value = line.substring(beginIndex, endIndex);
+					try {
+						value = value.replace(',', '.');
+					} catch (Exception e) {
+						return 0;
+					}
+					try {
+						return Double.parseDouble(value);
+					} catch (Exception e) {
+						return 0;
+					}
 				}
-				if (line.contains("-")) {
-					String value = line.substring(line.indexOf('-') - 1, line.indexOf('-'));
-					return Double.parseDouble(value);
-				}
-				int beginIndex = line.indexOf(' ') + 1;
-				int endIndex;
-				if (line.contains("-")) {
-					endIndex = line.indexOf('-');
-				} else {
-					endIndex = line.indexOf('&');
-				}
-				String value = line.substring(beginIndex, endIndex);
-				try {
-					value = value.replace(',', '.');
-				} catch (Exception e) {
-					return 0;
-				}
-				try {
-					return Double.parseDouble(value);
-				} catch (Exception e) {
-					return 0;
-				}
+			} catch (Exception e) {
+				return 0;
 			}
 		}
 		in.close();
