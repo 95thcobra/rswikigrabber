@@ -144,9 +144,11 @@ public class GrabEquipmentReqs {
 			for (int i = 0; i < SKILL_NAMES.length; i++) {
 				String skillName = SKILL_NAMES[i];
 				String contain = "<a href=\"/wiki/" + skillName + "\" title=\"" + skillName + "\">" + skillName + "</a>";
+				
 				//System.out.println(contain);
 				// while ((line = in.readLine()) != null) {
-				if (line.contains(contain)) {
+				if (line.contains(contain) && line.contains("requires")) {
+					System.out.println(line);
 					//System.out.println(line);
 					map.put(skillName.toUpperCase(), 1);
 				}

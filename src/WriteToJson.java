@@ -9,8 +9,6 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
-import game.model.entity.setting.Rights;
-
 public class WriteToJson {
 	
 	public static boolean save() throws IOException {
@@ -28,7 +26,7 @@ public class WriteToJson {
 			jsonObject.addProperty("string1", "text1");
 			jsonObject.addProperty("string2", "text2");
 			jsonObject.add("type", builder.toJsonTree(EquipmentType.AMULET_SLOT));
-			player.setRights(builder.fromJson(reader.get("rights"), Rights.class));
+		//	player.setRights(builder.fromJson(reader.get("rights"), Rights.class));
 			jsonArray.add(jsonObject);
 			
 			writer.write(builder.toJson(jsonArray));

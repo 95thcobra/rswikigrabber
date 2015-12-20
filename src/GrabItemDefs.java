@@ -275,7 +275,7 @@ public class GrabItemDefs {
 
 	public static String getEquipmentType(String itemName) throws Exception {
 
-		final String[][] SLOTS = { { "Weapon", "WEAPON" }, { "Head", "HAT" }, { "Neck", "AMULET" }, { "Feet", "BOOTS" }, { "Hands", "HANDS" }, { "Shield", "SHIELD" }, { "Ring", "RING" }, { "Ammunition", "ARROW" }, { "Legwear", "LEGS" }, { "Body", "BODY" } };
+		final String[][] SLOTS = { { "Weapon", "WEAPON" }, { "Cape", "CAPE" }, { "Head", "HAT" }, { "Neck", "AMULET" }, { "Feet", "BOOTS" }, { "Hands", "HANDS" }, { "Shield", "SHIELD" }, { "Ring", "RING" }, { "Ammunition", "ARROW" }, { "Legwear", "LEGS" }, { "Body", "BODY" } };
 
 		URL url = new URL("http://2007.runescape.wikia.com/wiki/" + itemName.replace(' ', '_'));
 		URLConnection con = url.openConnection();
