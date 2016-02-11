@@ -1,7 +1,11 @@
+package cfg;
+
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
@@ -18,7 +22,7 @@ import com.google.gson.JsonObject;
  * 
  * @author Sky
  */
-public class GrabItemDefs {
+public class PricesTxt {
 
 	/**
 	 * Read id and name from txt file.
@@ -28,16 +32,18 @@ public class GrabItemDefs {
 	 */
 	public static void start() throws Exception {
 
-		Path path = Paths.get("myitemdef.json");
+		Path path = Paths.get("prices.txt");
 		File file = path.toFile();
 		if (!file.exists()) {
 			file.createNewFile();
 		}
-
-		Gson builder = new GsonBuilder().setPrettyPrinting().create();
-		JsonArray jsonArray = new JsonArray();
-
+System.out.println("dumping started");
 		BufferedReader in = new BufferedReader(new FileReader("itemlist78.txt"));
+
+		//BufferedWriter writer = new BufferedWriter(new FileWriter("item.cfg", true));
+		  try (FileWriter writer = new FileWriter(file)) {
+		  }
+				
 		String line;
 		while ((line = in.readLine()) != null) {
 			if (!line.contains(" : ")) {
@@ -49,71 +55,25 @@ public class GrabItemDefs {
 			String idText = line.substring(0, first - 3);
 			int id = Integer.parseInt(idText);
 			String itemName = line.substring(first, second);
-			String description = "";
-			double weight = 0;
-			boolean tradable = false;
-			boolean stackable = false;
-			boolean notable = false;
-			boolean equipable = false;
-			boolean isNote = false;
-			boolean twoHanded = false;
-			double highAlch = 0;
-			double lowAlch = 0;
-			double storePrice = 0;
-			String equipmentType = "NONE";
-			boolean plateBody = false;
-			boolean fullHelm = false;
-			int[] bonus = new int[14];
+			double storePrice = 1;
 
 			try {
-				plateBody = itemName.contains("platebody");
-				fullHelm = itemName.contains("fullhelm");
-				isNote = isNote(idText);
-				final String NOTE_DESCRIPTION = "Swap this note at any bank for the equivalent item.";
-				description = (isNote ? NOTE_DESCRIPTION : getDescByName(itemName));
-				weight = getWeightByName(itemName);
-				tradable = isTradable(itemName);
-				stackable = getStackable(itemName);
-				notable = isNotable(stackable, tradable);
-				equipable = getEquipable(itemName);
-				equipmentType = getEquipmentType(itemName);
-				twoHanded = getTwoHanded(itemName);
-				highAlch = getHighAlchValue(itemName);
-				lowAlch = getLowAlchValue(itemName);
 				storePrice = getStorePrice(itemName);
-				bonus = getBonus(itemName);
-
+				if (storePrice <= 0) {
+					storePrice = 1;
+				}
 			} catch (Exception e) {
-				// Failed to grab info for item.
+				//1
 			}
 
-			try (FileWriter writer = new FileWriter(file)) {
-				JsonObject jsonObject = new JsonObject();
-				jsonObject.addProperty("id", id);
-				jsonObject.addProperty("name", itemName);
-				jsonObject.addProperty("description", description);
-				jsonObject.addProperty("weight", weight);
-				jsonObject.addProperty("tradable", tradable);
-				jsonObject.addProperty("stackable", stackable);
-				jsonObject.addProperty("notable", notable);
-				jsonObject.addProperty("noted", isNote);
-				jsonObject.addProperty("equipable", equipable);
-				jsonObject.addProperty("equipment-type", equipmentType);
-				jsonObject.addProperty("two-handed", twoHanded);
-				jsonObject.addProperty("platebody", plateBody);
-				jsonObject.addProperty("fullhelm", fullHelm);
-				jsonObject.addProperty("high-alch", highAlch);
-				jsonObject.addProperty("low-alch", lowAlch);
-				jsonObject.addProperty("store-price", storePrice);
-				jsonObject.add("bonus", builder.toJsonTree(bonus));
-				System.out.println("id: " + id + ", itemName: " + itemName);
-				jsonArray.add(jsonObject);
-				writer.write(builder.toJson(jsonArray));
-			} catch (Exception ex) {
-				// Failed to write to JSON.
-			}
+			System.out.println("id:"+id+" name:"+itemName);
+			
+			  try (FileWriter writer = new FileWriter(file, true)) {
+					writer.write(id + " " + (int)storePrice + "\n");
+			  }
 		}
 		in.close();
+		System.out.println("DONE!");
 	}
 
 	public static boolean getTwoHanded(String itemName) throws Exception {
@@ -156,62 +116,6 @@ public class GrabItemDefs {
 		return !stackable && tradable;
 	}
 
-	/**
-	 * Do requirements in another file.
-	 */
-	/*public static JsonObject[] getRequirements(String itemName) throws Exception {
-		final String[] SKILL_NAMES = { "Attack", "Defence", "Strength", "Hitpoints", "Ranged", "Prayer", "Magic", "Cooking", "Woodcutting", "Fletching", "Fishing", "Firemaking", "Crafting", "Smithing", "Mining", "Herblore", "Agility", "Thieving", "Slayer", "Farming", "Runecraft" };
-
-		URL url = new URL("http://2007.runescape.wikia.com/wiki/" + itemName.replace(' ', '_'));
-		URLConnection con = url.openConnection();
-		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
-		String line;
-		while ((line = in.readLine()) != null) {
-			for (int i = 0; i < SKILL_NAMES.length; i++) {
-				String skillName = SKILL_NAMES[i];
-				String skill = "<a href=\"/wiki/" + skillName + "\" title=\"" + skillName + "\">" + skillName + "</a>";
-
-				// do checking
-			}
-
-			String text = "<td style=\"text-align: center; width:";
-			if (line.contains(text)) {
-				int beginIndex = line.indexOf("\">") + 2;
-				if (line.contains("+")) {
-					line = line.replace("+", "");
-				}
-				if (line.contains("%")) {
-					line = line.replace("%", "");
-				}
-			}
-		}
-		in.close();
-		return null;
-	}*/
-
-	/**
-	 * Rewrite to this, so you dont have to connect over and over.
-	 * 
-	 * @param itemName
-	 * @return
-	 * @throws Exception
-	 */
-	/*public static String readPage(String itemName) throws Exception {
-		URL url = new URL("http://2007.runescape.wikia.com/wiki/" + itemName.replace(' ', '_'));
-		URLConnection con = url.openConnection();
-		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
-		String line;
-		while ((line = in.readLine()) != null) {
-			if (line.contains("weight")) {
-				// handleweight;
-			}
-			if (line.contains("price")) {
-				// handleprice;
-			}
-		}
-		in.close();
-		return null;
-	}*/
 
 	public static int[] getBonus(String itemName) throws Exception {
 		int[] array = new int[14];
@@ -240,6 +144,7 @@ public class GrabItemDefs {
 	}
 
 	public static double getHighAlchValue(String itemName) throws Exception {
+	//	itemName = "Abyssal_Whip";
 		String line = "<th style=\"white-space: nowrap;\"><a href=\"/wiki/High_Level_Alchemy\" title=\"High Level Alchemy\">High Alch</a>";
 		return getNumber(itemName, line);
 	}
@@ -415,7 +320,8 @@ public class GrabItemDefs {
 					}
 					String value = line.substring(beginIndex, endIndex);
 					try {
-						value = value.replace(',', '.');
+						//value = value.replace(',', '.');
+						value = value.replace(",", "");
 					} catch (Exception e) {
 						return 0;
 					}
