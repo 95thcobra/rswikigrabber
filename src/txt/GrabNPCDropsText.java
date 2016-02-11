@@ -3,6 +3,7 @@ package txt;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -24,7 +25,7 @@ import com.google.gson.JsonObject;
  */
 public class GrabNPCDropsText {
 	public static boolean firstLine = false;
-
+	
 	/**
 	 * Read id and name from txt file.
 	 * 
@@ -64,7 +65,10 @@ public class GrabNPCDropsText {
 				drops = getDrops(name);
 				if (drops.length() <= 0)
 					continue;
+			} catch(FileNotFoundException fnx) {
+				continue;
 			} catch (Exception e) {
+				e.printStackTrace();
 				continue;
 			}
 
@@ -109,17 +113,33 @@ public class GrabNPCDropsText {
 				String src = line.substring(titleStart, titleStart + 50);
 				int titleEndd = src.indexOf(titleEnd) + title.length() - 1;
 				String titlePrint = line.substring(titleStart, titleStart + titleEndd).trim().replace("\"", "");
-				System.out.println(titlePrint);
+				//System.out.println(titlePrint);
 				////
 				
+				String quantity;
+				try {
 				//
 				String qty = titlePrint + "</a></td><td>";
 				String qtyEnd = "/td><td";
 				int qtyIndexStart = line.indexOf(qty) + qty.length();
 				String lmao = line.substring(qtyIndexStart, qtyIndexStart + 50);
 				int qtyEndd= qtyIndexStart + lmao.indexOf(qtyEnd) - 1;
-				String quantity = line.substring(qtyIndexStart, qtyEndd);
+				
+				 quantity = line.substring(qtyIndexStart, qtyEndd);
+				} catch(Exception e) {
+					quantity = ""+1;
+				}
 				//
+				if (quantity.contains("-")) {
+					quantity = quantity.substring(0, quantity.indexOf("-") - 1);
+				}
+				if (quantity.contains("–")) {
+					quantity = quantity.substring(0, quantity.indexOf("–"));
+				}
+				if (quantity.contains(";")) {
+					quantity = quantity.substring(0, quantity.indexOf(";"));
+				}
+				System.out.println(quantity);
 				
 				drops += titlePrint + "$" + quantity + "$" + rarityPrint + " ";
 			}
