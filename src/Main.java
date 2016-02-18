@@ -4,6 +4,8 @@ import java.io.IOException;
 import cfg.GrabItemDefsCFG;
 import cfg.GrabNPCDefsCFG;
 import cfg.PricesTxt;
+import json.GrabEquipmentReqs;
+import json.GrabEquipmentReqsOSR;
 import json.GrabItemDefs;
 import txt.GrabNPCDropsText;
 
@@ -13,6 +15,7 @@ public class Main {
 		//GrabItemDefsCFG.start();
 		//GrabNPCDefsCFG.start();
 		//PricesTxt.start();
-		GrabNPCDropsText.start();
+		//GrabNPCDropsText.start();
+		GrabEquipmentReqsOSR.start();
 	}
 }

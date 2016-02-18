@@ -112,7 +112,7 @@ public class GrabNPCDropsText {
 				int titleStart = line.indexOf(title) + title.length();
 				String src = line.substring(titleStart, titleStart + 50);
 				int titleEndd = src.indexOf(titleEnd) + title.length() - 1;
-				String titlePrint = line.substring(titleStart, titleStart + titleEndd).trim().replace("\"", "");
+				String titlePrint = line.substring(titleStart, titleStart + titleEndd).trim().replace("\"", "").replace(" ", "_");
 				//System.out.println(titlePrint);
 				////
 				
@@ -139,7 +139,7 @@ public class GrabNPCDropsText {
 				if (quantity.contains(";")) {
 					quantity = quantity.substring(0, quantity.indexOf(";"));
 				}
-				System.out.println(quantity);
+				//System.out.println(quantity);
 				
 				drops += titlePrint + "$" + quantity + "$" + rarityPrint + " ";
 			}

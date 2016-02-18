@@ -1,0 +1,2732 @@
+[
+  {
+    "id": 35,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 772,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 800,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 806,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 809,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 811,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 817,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 825,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 826,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 843,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 844,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 845,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 846,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 847,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 848,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 849,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 850,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 855,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 856,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 859,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 860,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 861,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 862,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 867,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 868,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 877,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 880,
+    "requirements": [
+      {
+        "skill": "FLETCHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 882,
+    "requirements": [
+      {
+        "skill": "FLETCHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 886,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 888,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "FLETCHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1009,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1010,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1063,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1064,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1065,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1066,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1069,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1070,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1071,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1072,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1073,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1074,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1075,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1076,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1077,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1078,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1079,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1080,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1085,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1086,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1089,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1090,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1097,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1098,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1099,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1100,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1103,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1104,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1109,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1110,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1113,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1114,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1115,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "MAGIC",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1116,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "MAGIC",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1117,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "MAGIC",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1118,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "MAGIC",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1119,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1120,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1121,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1122,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1123,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1124,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1127,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1128,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1129,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1130,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1131,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1132,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1133,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1134,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1143,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1144,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1145,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1146,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1149,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1150,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1151,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1152,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1153,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1154,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1155,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1156,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1163,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1164,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1165,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1166,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1169,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1170,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1175,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1176,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1181,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1182,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1183,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1184,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1187,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1188,
+    "requirements": [
+      {
+        "skill": "DEFENCE",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1205,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1206,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1207,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1208,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1209,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1210,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1241,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1242,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1273,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "MINING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1274,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "MINING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1275,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "MINING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1276,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "MINING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1287,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1288,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1289,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1290,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1291,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1292,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1295,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1296,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1299,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1300,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1303,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1304,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1311,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1312,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1315,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1316,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1317,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1318,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1321,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1322,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1329,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1330,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1331,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1332,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1333,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1334,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1339,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1340,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1341,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1342,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1343,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1344,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1345,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1346,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1347,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1348,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1349,
+    "requirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1350,
+    "requirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1351,
+    "requirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      },
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1352,
+    "requirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      },
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1353,
+    "requirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1354,
+    "requirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1355,
+    "requirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1356,
+    "requirements": [
+      {
+        "skill": "WOODCUTTING",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1357,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1358,
+    "requirements": [
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1367,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1368,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1369,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1370,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1371,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1372,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1391,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1392,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1393,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      },
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1394,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      },
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1395,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      },
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1396,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      },
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1397,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      },
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1398,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      },
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1401,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1402,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1403,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1404,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1405,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1406,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1407,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1408,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1409,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1410,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1426,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1427,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1428,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1429,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1430,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1431,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      },
+      {
+        "skill": "SMITHING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1432,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1433,
+    "requirements": [
+      {
+        "skill": "ATTACK",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1637,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1638,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1639,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1640,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1641,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1642,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1649,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1650,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1651,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1654,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1655,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1656,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1657,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1658,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1659,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1660,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1661,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1662,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1663,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1664,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1665,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1668,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1669,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1670,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1671,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1672,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1688,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1689,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1692,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1693,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1696,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1697,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1698,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1699,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1718,
+    "requirements": [
+      {
+        "skill": "PRAYER",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1719,
+    "requirements": [
+      {
+        "skill": "PRAYER",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1722,
+    "requirements": [
+      {
+        "skill": "PRAYER",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 1723,
+    "requirements": [
+      {
+        "skill": "PRAYER",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 2415,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 2416,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 2417,
+    "requirements": [
+      {
+        "skill": "MAGIC",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 2489,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 2490,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 2493,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 2494,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 2495,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 2496,
+    "requirements": [
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 2497,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 2498,
+    "requirements": [
+      {
+        "skill": "RANGED",
+        "level": 1
+      },
+      {
+        "skill": "CRAFTING",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": 2513,
+    "requirements": [
+      {
+        "skill": "SLAYER",
+        "level": 1
+      }
+    ]
+  }
+]
